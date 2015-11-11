@@ -1,0 +1,12 @@
+<body>
+	{{renderPage}}
+</body>
+<template name="defaultLayout">
+<div class="wrapper">
+    {{> navbar}}
+    <br/><br/><br/><br/>
+    {{> pageheader}}
+    {{> yield}}
+    {{> footer}}
+</div>
+</template>

@@ -2,209 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90bc88ca-40f4-485f-9402-ba71e6fef92c" name="Default" comment="">
-      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\client\lib\2_jquery.parallax.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\client\lib\2_jquery.parallax.js.map" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\client\lib\3_smoothScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\client\lib\3_smoothScroll.js.map" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\js\app.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\js\custom.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\js\plugins\cube-portfolio\cube-portfolio-lightbox.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\js\plugins\revolution-slider.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\client\lib\2_jquery.parallax.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\client\lib\3_smoothScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\client\stylesheets\footers\footer-v1.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\public\js\app.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\public\js\custom.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\public\js\plugins\cube-portfolio\cube-portfolio-lightbox.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\public\js\plugins\revolution-slider.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/db/mongod.lock" afterPath="$PROJECT_DIR$/.meteor/local/db/mongod.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/.node_version.txt" afterPath="$PROJECT_DIR$/.meteor/local/build/.node_version.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/1_back-to-top.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/1_back-to-top.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/README" afterPath="$PROJECT_DIR$/.meteor/local/build/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/autopublish.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/autopublish.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autopublish.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autopublish.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/autoupdate.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/autoupdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autoupdate.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autoupdate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/babel-compiler.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/babel-compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/babel-compiler.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/babel-compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/babel-runtime.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/babel-runtime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/babel-runtime.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/babel-runtime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/base64.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/base64.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/base64.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/base64.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/binary-heap.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/binary-heap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze-html-templates.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze-html-templates.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze-html-templates.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze-html-templates.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze-tools.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze-tools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/boilerplate-generator.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/boilerplate-generator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.browser.html" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.browser.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.cordova.html" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.cordova.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot-utils.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot-utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/callback-hook.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/callback-hook.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/check.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/check.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/check.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/check.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/config.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/config.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/custom.css" afterPath="$PROJECT_DIR$/client/stylesheets/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-client.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-client.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-client.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-common.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-common.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-server.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-server.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/layouts/default-layout.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/layouts/default-layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/deps.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/deps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/deps.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/deps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/diff-sequence.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/diff-sequence.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/diff-sequence.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/diff-sequence.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ecmascript-runtime.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ecmascript-runtime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ecmascript-runtime.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ecmascript-runtime.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ecmascript.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ecmascript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ecmascript.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ecmascript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ejson.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ejson.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ejson.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ejson.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/es5-shim.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/es5-shim.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/es5-shim.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/es5-shim.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/fortawesome_fontawesome.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/fortawesome_fontawesome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/gallery.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/geojson-utils.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/geojson-utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/geojson-utils.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/geojson-utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/global-imports.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/global-imports.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/global-imports.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/global-imports.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/head.html" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/head.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/pages/home.html" afterPath="$PROJECT_DIR$/client/templates/pages/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/home.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/hot-code-push.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/hot-code-push.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/hot-code-push.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/hot-code-push.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/html-tools.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/html-tools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/htmljs.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/htmljs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/htmljs.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/htmljs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/line-icons/icons-lte-ie7.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/line-icons/icons-lte-ie7.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/line-icons/icons-lte-ie7.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/line-icons/icons-lte-ie7.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/id-map.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/id-map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/id-map.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/id-map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/shell/info.json" afterPath="$PROJECT_DIR$/.meteor/local/shell/info.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/insecure.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/insecure.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/insecure.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/insecure.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_controller.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_controller.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_core.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_core.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_dynamic-template.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_dynamic-template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_layout.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_layout.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_location.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_location.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_location.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_middleware-stack.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_middleware-stack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_middleware-stack.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_middleware-stack.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_router.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_router.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_url.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_url.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_url.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_url.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.min.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.min.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/jquery.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/jquery.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.enablelog.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.enablelog.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/launch-screen.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/launch-screen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/launch-screen.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/launch-screen.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/less.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/less.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/less.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/less.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/livedata.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/livedata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/livedata.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/livedata.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/logging.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/logging.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/main.js" afterPath="$PROJECT_DIR$/.meteor/local/build/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/merged-stylesheets.css.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/merged-stylesheets.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/merged-stylesheets.css" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/merged-stylesheets.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor-base.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor-base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor-base.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor-base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/mini-files.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/mini-files.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/minimongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/minimongo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/minimongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/minimongo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mobile-experience.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mobile-experience.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mobile-experience.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mobile-experience.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mongo-id.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mongo-id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo-id.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo-id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mongo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/npm-mongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/npm-mongo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/npm-shrinkwrap.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/observe-sequence.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/observe-sequence.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/observe-sequence.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/observe-sequence.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ordered-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ordered-dict.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ordered-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ordered-dict.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/common/pageheader.html" afterPath="$PROJECT_DIR$/client/templates/common/pageheader.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/program.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/program.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/program.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/program.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/promise.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/promise.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/random.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/random.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/random.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/random.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-dict.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-dict.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-var.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-var.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-var.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-var.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reload.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reload.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reload.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/retry.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/retry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/retry.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/retry.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/routepolicy.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/routepolicy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/config/routes.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/config/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/session.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/session.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/session.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/session.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/shell-server.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/shell-server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars-compiler.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars-compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/spacebars.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/spacebars.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/standard-minifiers.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/standard-minifiers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/standard-minifiers.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/standard-minifiers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/star.json" afterPath="$PROJECT_DIR$/.meteor/local/build/star.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/layouts/template.default-layout.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/layouts/template.default-layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.footer.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.footer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.gallery.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.gallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.home.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.home.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.home.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.navbar.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.pageheader.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.pageheader.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.pageheader.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.pageheader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/templating.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/templating.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/templating.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/templating.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/tracker.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/tracker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/tracker.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/tracker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/twbs_bootstrap.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/twbs_bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ui.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ui.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/underscore.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/underscore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/underscore.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/underscore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.min.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.min.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp-hashing.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp-hashing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/webapp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/webapp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lark.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -278,8 +76,8 @@
       <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/stylesheets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.046703298">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.093406595">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -729,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/stylesheets/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.046703298">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.093406595">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>

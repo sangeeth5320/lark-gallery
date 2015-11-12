@@ -2,519 +2,209 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90bc88ca-40f4-485f-9402-ba71e6fef92c" name="Default" comment="">
-      <change type="DELETED" beforePath="F:\repos\lark\assets\css\app.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\css\blocks.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\css\custom.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\css\footers\footer-v1.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\css\headers\header-v6.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\css\ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\css\plugins.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\css\plugins\style-switcher.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\css\style.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\banners\adds.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\29.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\30.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\bg\img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\blur\License.txt" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\blur\img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\blur\img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\breadcrumbs\img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\breadcrumbs\img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\breadcrumbs\img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\austrian-airlines.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\baderbrau.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\bellfield.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\clarks.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\co-wheels.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\corepreserves.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\cropped.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\district-karaoke.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\dragnfly.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\ea-canada.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\emirates.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\fddw.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\finals.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\fred-perry.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\general-electric.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\getapp.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\getaround.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\grifting-tree.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\hermes.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\hotiron.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\inspiring.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\jaguar.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\marianos.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\much-more.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\national-geographic.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\qantas-airways.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\starbucks.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients2\ucweb.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients3\1.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients3\2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients3\3.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients3\4.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients3\5.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients3\6.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients4\1.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients4\2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients4\3.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients4\4.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients4\5.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients4\6.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients4\7.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients4\8.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\clients4\9.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\demo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\flat\01.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\flat\02.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\flat\03.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\amazon.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\behance.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\blogger.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\deviantart.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\dribbble.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\dropbox.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\evernote.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\forrst.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\github.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\googleplus.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\instagram.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\jolicloud.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\last-fm.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\picasa.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\pintrest.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\rss.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\skype.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\spotify.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\stumbleupon.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\tumblr.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\vimeo.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\vk.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\wordpress.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\xing.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\yahoo.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\social\youtube.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\icons\video-play.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\lark\Larkonhorsewew.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\lark\larportopt.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\logo-2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\logo1-default.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\logo1-white.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\logo2-default.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\logo3-dark.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\logo3-light.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img25.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img26.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\main\img9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\map-img-v1.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\map-img.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\masonry\blog1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\masonry\blog2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\masonry\blog3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\masonry\blog4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\masonry\blog5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\1.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\3.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\4.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\full-mockup.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\hand-black-iphone-l.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\imac.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\imac2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\iphone1.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\iphone3.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\mockup.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\mockup1.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\showcase.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\mockup\white-ipad.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\1.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\10.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\11.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\12.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\13.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\14.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\15.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\16.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\17.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\3.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\4.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\5.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\6.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\7.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\8.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\9.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\breadcrumbs.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\patterns\gridtile.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\portfolio\19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\portfolio\20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\portfolio\21.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\portfolio\22.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\portfolio\23.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\portfolio\24.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\shop\img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\shop\img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\shop\img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\11.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\12.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\13.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\14.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\15.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\16.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\17.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\18.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\19.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\20.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\elastislide\9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\layer\bg1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\sliders\layer\bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\faces.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img-v1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img-v2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img-v3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img1-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img1-sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img10-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img11-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img12-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img13-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img14-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img15-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img16-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img17-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img18-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img19-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img2-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img2-sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img20-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img21-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img22-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img23-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img24-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img25-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img26-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img27-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img28-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img29-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img3-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img3-sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img30-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img31-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img32-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img33-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img34-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img35-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img36-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img37-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img38-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img39-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img4-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img4-sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img40-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img5-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img5-sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img6-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img6-sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img7-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img7-sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img8-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img8-sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img9-md.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\team\img9-sm.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\testimonials\img1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\testimonials\img2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\testimonials\img3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\testimonials\img4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\testimonials\img5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\testimonials\img6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\testimonials\img7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\testimonials\user.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-aqua.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-brown.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-dark-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-dark-red.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-default.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-light-green.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-light.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-orange.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-purple.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-red.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo1-teal.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-aqua.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-brown.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-dark-blue.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-dark-red.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-default.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-light-green.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-light.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-orange.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-purple.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-red.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\themes\logo2-teal.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\thumb\01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\thumb\02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\transparent\bg-black.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\transparent\bg-black1.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\transparent\bg-green.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\transparent\bg-white.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\transparent\black.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\transparent\white.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\img\user.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\js\app.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\js\custom.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\js\plugins\cube-portfolio\cube-portfolio-lightbox.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\js\plugins\revolution-slider.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\animate.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\back-to-top.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\css\bootstrap-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\bootstrap\js\npm.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\counter\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\counter\README.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\counter\counterup.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\counter\demo\demo.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\counter\jquery.counterup.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\counter\jquery.counterup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\counter\waypoints.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\counter\waypoints.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\cube-portfolio\cubeportfolio\css\cubeportfolio.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\cube-portfolio\cubeportfolio\css\cubeportfolio.min.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\cube-portfolio\cubeportfolio\custom\custom-cubeportfolio.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\cube-portfolio\cubeportfolio\img\cbp-loading-popup.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\cube-portfolio\cubeportfolio\img\cbp-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\cube-portfolio\cubeportfolio\img\cbp-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\cube-portfolio\cubeportfolio\js\jquery.cubeportfolio.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\cube-portfolio\cubeportfolio\js\jquery.cubeportfolio.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\css\font-awesome.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\css\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\fonts\fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\animated.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\bordered-pulled.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\core.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\fixed-width.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\font-awesome.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\icons.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\larger.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\list.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\path.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\rotated-flipped.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\stacked.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\less\variables.less" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\font-awesome\scss\font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\jquery.parallax.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\jquery\jquery-migrate.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\jquery\jquery-migrate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\jquery\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\jquery\jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\jquery\jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\line-icons\License.txt" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\line-icons\Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\line-icons\fonts\Simple-Line-Icons.dev.svg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\line-icons\fonts\Simple-Line-Icons.eot" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\line-icons\fonts\Simple-Line-Icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\line-icons\fonts\Simple-Line-Icons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\line-icons\fonts\Simple-Line-Icons.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\line-icons\icons-lte-ie7.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\line-icons\index.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\line-icons\line-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\line-icons\style.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\css\bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\css\documenter_style.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\images\image_1.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\images\image_2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\img\glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\img\glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\img\glyphicons\glyphicons_009_magic.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\img\glyphicons\glyphicons_042_group.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\img\glyphicons\glyphicons_079_podium.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\img\glyphicons\glyphicons_082_roundabout.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\img\glyphicons\glyphicons_155_show_thumbnails.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\img\glyphicons\glyphicons_163_iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\img\glyphicons\glyphicons_214_resize_small.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\img\glyphicons\glyphicons_266_book_open.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\js\README.md" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\js\bootstrap-min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\js\google-code-prettify\prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\js\google-code-prettify\prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\js\jquery.easing.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\js\jquery.scrollTo.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\js\scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\assets\json.txt" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\css\documenter_style.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\css\img\info.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\css\img\pre_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\css\img\warning.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\css\shDocumenter.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\js\jquery.1.6.4.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\js\jquery.easing.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\js\jquery.scrollTo-1.4.2-min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\js\script.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\js\shBrushCss.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\js\shBrushJScript.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\js\shBrushXml.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\documentation\js\shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\arrow_large_left.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\arrow_large_right.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\arrow_left.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\arrow_left2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\arrow_right.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\arrow_right2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\arrowleft.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\arrowright.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\arrows.psd" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\black50.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\boxed_bgtile.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\bullet_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\bullets.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\bullets.psd" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\bullets2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\coloredbg.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\grain.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\gridtile.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\gridtile_3x3.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\gridtile_3x3_white.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\gridtile_white.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\large_left.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\large_right.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\loader2.gif" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\navigdots.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\navigdots_bgtile.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\shadow1.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\shadow2.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\shadow3.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\small_arrows.psd" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\small_left.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\small_left_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\small_right.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\small_right_boxed.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\timer.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\timerdot.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\transparent.jpg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\assets\white50.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\css\settings-ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\css\settings.css" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\font\revicons.eot" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\font\revicons.svg" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\font\revicons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\font\revicons.woff" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\images\decor_inside.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\images\decor_inside_white.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\images\decor_testimonial.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\images\gradient\g30.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\images\gradient\g40.png" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\js\jquery.themepunch.enablelog.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\js\jquery.themepunch.revolution.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\js\jquery.themepunch.revolution.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\revolution-slider\rs-plugin\js\jquery.themepunch.tools.min.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\assets\plugins\smoothScroll.js" afterPath="" />
-      <change type="DELETED" beforePath="F:\repos\lark\index.html" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\client\lib\2_jquery.parallax.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\client\lib\2_jquery.parallax.js.map" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\client\lib\3_smoothScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\client\lib\3_smoothScroll.js.map" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\js\app.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\js\custom.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\js\plugins\cube-portfolio\cube-portfolio-lightbox.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\.meteor\local\build\programs\web.browser\app\js\plugins\revolution-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\client\lib\2_jquery.parallax.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\client\lib\3_smoothScroll.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\client\stylesheets\footers\footer-v1.css" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\public\js\app.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\public\js\custom.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\public\js\plugins\cube-portfolio\cube-portfolio-lightbox.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\repos\lark\public\js\plugins\revolution-slider.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/db/mongod.lock" afterPath="$PROJECT_DIR$/.meteor/local/db/mongod.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/.node_version.txt" afterPath="$PROJECT_DIR$/.meteor/local/build/.node_version.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/1_back-to-top.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/1_back-to-top.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/README" afterPath="$PROJECT_DIR$/.meteor/local/build/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/autopublish.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/autopublish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autopublish.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autopublish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/autoupdate.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/autoupdate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autoupdate.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/autoupdate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/babel-compiler.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/babel-compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/babel-compiler.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/babel-compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/babel-runtime.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/babel-runtime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/babel-runtime.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/babel-runtime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/base64.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/base64.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/base64.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/base64.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/binary-heap.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/binary-heap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze-html-templates.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze-html-templates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze-html-templates.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze-html-templates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze-tools.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze-tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/blaze.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/blaze.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/boilerplate-generator.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/boilerplate-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.browser.html" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.browser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.cordova.html" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/assets/packages/boilerplate-generator/boilerplate_web.cordova.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot-utils.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/boot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/callback-hook.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/callback-hook.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/check.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/check.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/check.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/check.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/config.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/stylesheets/custom.css" afterPath="$PROJECT_DIR$/client/stylesheets/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-client.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-client.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-common.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-common.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-common.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-server.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-server.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ddp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ddp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/layouts/default-layout.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/layouts/default-layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/deps.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/deps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/deps.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/deps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/diff-sequence.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/diff-sequence.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/diff-sequence.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/diff-sequence.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ecmascript-runtime.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ecmascript-runtime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ecmascript-runtime.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ecmascript-runtime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ecmascript.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ecmascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ecmascript.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ecmascript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ejson.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ejson.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ejson.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ejson.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/es5-shim.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/es5-shim.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/es5-shim.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/es5-shim.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome/upstream/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/fortawesome_fontawesome.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/fortawesome_fontawesome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/fortawesome_fontawesome.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/gallery.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/gallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/geojson-utils.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/geojson-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/geojson-utils.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/geojson-utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/global-imports.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/global-imports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/global-imports.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/global-imports.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/head.html" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/pages/home.html" afterPath="$PROJECT_DIR$/client/templates/pages/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/home.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/hot-code-push.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/hot-code-push.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/hot-code-push.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/hot-code-push.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/html-tools.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/html-tools.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/htmljs.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/htmljs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/htmljs.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/htmljs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/line-icons/icons-lte-ie7.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/line-icons/icons-lte-ie7.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/line-icons/icons-lte-ie7.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/line-icons/icons-lte-ie7.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/id-map.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/id-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/id-map.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/id-map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/shell/info.json" afterPath="$PROJECT_DIR$/.meteor/local/shell/info.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/insecure.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/insecure.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/insecure.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/insecure.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_controller.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_controller.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_core.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_core.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_dynamic-template.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_dynamic-template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_dynamic-template.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_layout.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_layout.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_location.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_location.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_location.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_middleware-stack.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_middleware-stack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_middleware-stack.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_middleware-stack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_router.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_router.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_url.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/iron_url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_url.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/iron_url.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.min.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.min.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/jquery.counterup.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/jquery.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/jquery.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.enablelog.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.enablelog.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/launch-screen.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/launch-screen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/launch-screen.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/launch-screen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/less.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/less.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/less.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/less.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/livedata.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/livedata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/livedata.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/livedata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/logging.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/logging.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/main.js" afterPath="$PROJECT_DIR$/.meteor/local/build/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/merged-stylesheets.css.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/merged-stylesheets.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/merged-stylesheets.css" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/merged-stylesheets.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor-base.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor-base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor-base.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor-base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/meteor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/meteor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/mini-files.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/mini-files.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/minimongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/minimongo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/minimongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/minimongo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mobile-experience.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mobile-experience.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mobile-experience.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mobile-experience.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mongo-id.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mongo-id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo-id.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo-id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/mongo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/mongo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/npm-mongo.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/npm-mongo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/npm-shrinkwrap.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/observe-sequence.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/observe-sequence.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/observe-sequence.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/observe-sequence.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ordered-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ordered-dict.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ordered-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ordered-dict.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/common/pageheader.html" afterPath="$PROJECT_DIR$/client/templates/common/pageheader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/program.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/program.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/program.json" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/program.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/promise.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/promise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/promise.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/promise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/random.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/random.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/random.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/random.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-dict.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-dict.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-dict.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-var.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reactive-var.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-var.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reactive-var.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reload.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/reload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reload.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/reload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/retry.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/retry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/retry.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/retry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/routepolicy.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/routepolicy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/config/routes.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/config/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/session.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/session.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/session.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/session.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/shell-server.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/shell-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars-compiler.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars-compiler.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/spacebars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/spacebars.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/spacebars.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/standard-minifiers.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/standard-minifiers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/standard-minifiers.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/standard-minifiers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/star.json" afterPath="$PROJECT_DIR$/.meteor/local/build/star.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/layouts/template.default-layout.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/layouts/template.default-layout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.footer.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.footer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.gallery.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.gallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.home.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.home.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.home.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/pages/template.home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.navbar.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.navbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.pageheader.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.pageheader.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.pageheader.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/templates/common/template.pageheader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/templating.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/templating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/templating.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/templating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/tracker.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/tracker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/tracker.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/tracker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/twbs_bootstrap.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/twbs_bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/twbs_bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ui.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ui.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/ui.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/underscore.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/underscore.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/underscore.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.min.js.map" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.min.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/app/client/lib/counter/waypoints.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp-hashing.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp-hashing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/server/packages/webapp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/webapp.js" afterPath="$PROJECT_DIR$/.meteor/local/build/programs/web.browser/packages/webapp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lark.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -535,91 +225,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default-layout.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/layouts/default-layout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.2592592">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/pages/gallery.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/pages/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="header-v6.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/stylesheets/headers/header-v6.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1100" column="0" selection-start-line="1100" selection-start-column="0" selection-end-line="1100" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/config/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11747285">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/common/head.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/common/footer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pageheader.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/common/pageheader.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default-layout.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/templates/layouts/default-layout.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+              <caret line="1094" column="17" selection-start-line="1094" selection-start-column="17" selection-end-line="1094" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -628,8 +238,58 @@
       <file leaf-file-name="navbar.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/templates/common/navbar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.2738094">
-              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+            <state vertical-scroll-proportion="-9.115385">
+              <caret line="31" column="55" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pageheader.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/common/pageheader.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/templates/pages/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.769231">
+              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blocks.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/blocks.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1873" column="35" selection-start-line="1873" selection-start-column="30" selection-end-line="1873" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.046703298">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/stylesheets/animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -653,17 +313,19 @@
       <list>
         <option value="$PROJECT_DIR$/client/templates/pages/default.js" />
         <option value="$PROJECT_DIR$/client/templates/pages/gallery.js" />
-        <option value="$PROJECT_DIR$/client/templates/common/head.html" />
-        <option value="$PROJECT_DIR$/client/templates/common/pageheader.html" />
         <option value="$PROJECT_DIR$/client/templates/pages/default.html" />
         <option value="$PROJECT_DIR$/client/templates/pages/gallery.html" />
-        <option value="$PROJECT_DIR$/client/stylesheets/headers/header-v6.css" />
         <option value="$PROJECT_DIR$/client/templates/layouts/default-layout.js" />
         <option value="$PROJECT_DIR$/client/common/routes.js" />
         <option value="$PROJECT_DIR$/client/templates/layouts/default-layout.html" />
-        <option value="$PROJECT_DIR$/client/templates/pages/home.html" />
-        <option value="$PROJECT_DIR$/client/templates/common/navbar.html" />
         <option value="$PROJECT_DIR$/client/config/routes.js" />
+        <option value="$PROJECT_DIR$/client/templates/common/head.html" />
+        <option value="$PROJECT_DIR$/client/templates/common/navbar.html" />
+        <option value="$PROJECT_DIR$/client/stylesheets/headers/header-v6.css" />
+        <option value="$PROJECT_DIR$/client/templates/common/pageheader.html" />
+        <option value="$PROJECT_DIR$/client/templates/pages/home.html" />
+        <option value="$PROJECT_DIR$/client/stylesheets/blocks.css" />
+        <option value="$PROJECT_DIR$/client/stylesheets/custom.css" />
       </list>
     </option>
   </component>
@@ -675,10 +337,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1176" />
+    <option name="height" value="1216" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -819,28 +481,6 @@
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="headers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lark" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -921,13 +561,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1216" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31768954" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -938,7 +579,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -967,34 +607,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/stylesheets/headers/header-v6.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1100" column="0" selection-start-line="1100" selection-start-column="0" selection-end-line="1100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/common/head.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.807693">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/layouts/default-layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2592592">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/pages/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4074073">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
           <folding />
         </state>
       </provider>
@@ -1007,34 +631,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/common/pageheader.html">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/plugins/style-switcher.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.63081396">
+          <caret line="162" column="31" selection-start-line="162" selection-start-column="31" selection-end-line="162" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1613373">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/common/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35951662">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/layouts/default-layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.051437218">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/plugins.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/headers/header-v6.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1094" column="17" selection-start-line="1094" selection-start-column="17" selection-end-line="1094" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/common/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.2738094">
-          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+        <state vertical-scroll-proportion="-9.115385">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/common/pageheader.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/pages/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        <state vertical-scroll-proportion="-11.769231">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/config/routes.js">
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/blocks.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11747285">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1873" column="35" selection-start-line="1873" selection-start-column="30" selection-end-line="1873" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/stylesheets/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.046703298">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
           <folding />
         </state>
       </provider>

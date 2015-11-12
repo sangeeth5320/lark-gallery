@@ -686,11 +686,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/templates/common/template.pageheader.js?8fb6e55b376466aca68b09c26c974ac4603d001c",
+      "url": "/app/client/templates/common/template.pageheader.js?a06883fe3f23eb075480240fd78ea5b721235b2c",
       "sourceMap": "app/client/templates/common/template.pageheader.js.map",
-      "sourceMapUrl": "/app/client/templates/common/8fb6e55b376466aca68b09c26c974ac4603d001c.map",
-      "size": 578,
-      "hash": "8fb6e55b376466aca68b09c26c974ac4603d001c"
+      "sourceMapUrl": "/app/client/templates/common/a06883fe3f23eb075480240fd78ea5b721235b2c.map",
+      "size": 784,
+      "hash": "a06883fe3f23eb075480240fd78ea5b721235b2c"
     },
     {
       "path": "app/client/templates/layouts/template.default-layout.js",
@@ -719,11 +719,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/templates/pages/template.home.js?871b31d14e508e61a084f3bc1181b25c05232e9c",
+      "url": "/app/client/templates/pages/template.home.js?2e8b3179b84a47ec0eb7b454d05f874c1b9ab068",
       "sourceMap": "app/client/templates/pages/template.home.js.map",
-      "sourceMapUrl": "/app/client/templates/pages/871b31d14e508e61a084f3bc1181b25c05232e9c.map",
-      "size": 7903,
-      "hash": "871b31d14e508e61a084f3bc1181b25c05232e9c"
+      "sourceMapUrl": "/app/client/templates/pages/2e8b3179b84a47ec0eb7b454d05f874c1b9ab068.map",
+      "size": 7900,
+      "hash": "2e8b3179b84a47ec0eb7b454d05f874c1b9ab068"
     },
     {
       "path": "app/client/lib/cube-portfolio/cubeportfolio/js/jquery.cubeportfolio.js",
@@ -763,11 +763,11 @@
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js?9d43c8b165661d16db4f8f04385a67887198d72f",
+      "url": "/app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js?1bd94f552584ac1366becb0a6d4f5609b2d46220",
       "sourceMap": "app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js.map",
-      "sourceMapUrl": "/app/client/lib/revolution-slider/rs-plugin/js/9d43c8b165661d16db4f8f04385a67887198d72f.map",
-      "size": 435087,
-      "hash": "9d43c8b165661d16db4f8f04385a67887198d72f"
+      "sourceMapUrl": "/app/client/lib/revolution-slider/rs-plugin/js/1bd94f552584ac1366becb0a6d4f5609b2d46220.map",
+      "size": 435159,
+      "hash": "1bd94f552584ac1366becb0a6d4f5609b2d46220"
     },
     {
       "path": "app/client/lib/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js",
@@ -790,6 +790,17 @@
       "sourceMapUrl": "/app/client/lib/revolution-slider/rs-plugin/js/15e86be3cd5e2262eac6ccee6db4e45be6c30755.map",
       "size": 206780,
       "hash": "15e86be3cd5e2262eac6ccee6db4e45be6c30755"
+    },
+    {
+      "path": "app/client/lib/plugins/cube-portfolio/cube-portfolio-lightbox.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/lib/plugins/cube-portfolio/cube-portfolio-lightbox.js?242199759453e87c907c6e204643736223be0051",
+      "sourceMap": "app/client/lib/plugins/cube-portfolio/cube-portfolio-lightbox.js.map",
+      "sourceMapUrl": "/app/client/lib/plugins/cube-portfolio/242199759453e87c907c6e204643736223be0051.map",
+      "size": 10550,
+      "hash": "242199759453e87c907c6e204643736223be0051"
     },
     {
       "path": "app/client/lib/counter/jquery.counterup.js",
@@ -847,6 +858,17 @@
       "hash": "17e1c647926ba48b07ddc7519416325a093e19e7"
     },
     {
+      "path": "app/client/lib/plugins/revolution-slider.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/lib/plugins/revolution-slider.js?a1721542cf9a09c44b38c8d92d239a13d2902e26",
+      "sourceMap": "app/client/lib/plugins/revolution-slider.js.map",
+      "sourceMapUrl": "/app/client/lib/plugins/a1721542cf9a09c44b38c8d92d239a13d2902e26.map",
+      "size": 3503,
+      "hash": "a1721542cf9a09c44b38c8d92d239a13d2902e26"
+    },
+    {
       "path": "app/client/lib/1_back-to-top.js",
       "where": "client",
       "type": "js",
@@ -858,26 +880,48 @@
       "hash": "b0f97223cf112e3f2f0dc336b37b5678e9caac85"
     },
     {
-      "path": "app/client/lib/2_jquery.parallax.js",
+      "path": "app/client/lib/2_smoothScroll.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/lib/2_jquery.parallax.js?ce73d4ca1c28a1b2094dc8b81baf2f8615679c50",
-      "sourceMap": "app/client/lib/2_jquery.parallax.js.map",
-      "sourceMapUrl": "/app/client/lib/ce73d4ca1c28a1b2094dc8b81baf2f8615679c50.map",
-      "size": 5765,
-      "hash": "ce73d4ca1c28a1b2094dc8b81baf2f8615679c50"
+      "url": "/app/client/lib/2_smoothScroll.js?6f4651bd2d8c60fa993137eab70e3cd894b94162",
+      "sourceMap": "app/client/lib/2_smoothScroll.js.map",
+      "sourceMapUrl": "/app/client/lib/6f4651bd2d8c60fa993137eab70e3cd894b94162.map",
+      "size": 40051,
+      "hash": "6f4651bd2d8c60fa993137eab70e3cd894b94162"
     },
     {
-      "path": "app/client/lib/3_smoothScroll.js",
+      "path": "app/client/lib/3_jquery.parallax.js",
       "where": "client",
       "type": "js",
       "cacheable": true,
-      "url": "/app/client/lib/3_smoothScroll.js?3fe492d06abe5a5b03db4f384e4f45c42276fe7e",
-      "sourceMap": "app/client/lib/3_smoothScroll.js.map",
-      "sourceMapUrl": "/app/client/lib/3fe492d06abe5a5b03db4f384e4f45c42276fe7e.map",
-      "size": 40051,
-      "hash": "3fe492d06abe5a5b03db4f384e4f45c42276fe7e"
+      "url": "/app/client/lib/3_jquery.parallax.js?d38e95dbe34f6b279bd67cffaff1624a47b04c7f",
+      "sourceMap": "app/client/lib/3_jquery.parallax.js.map",
+      "sourceMapUrl": "/app/client/lib/d38e95dbe34f6b279bd67cffaff1624a47b04c7f.map",
+      "size": 5765,
+      "hash": "d38e95dbe34f6b279bd67cffaff1624a47b04c7f"
+    },
+    {
+      "path": "app/client/lib/4_custom.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/lib/4_custom.js?7037ea72f47fda395911a26362ef687a2a0b381f",
+      "sourceMap": "app/client/lib/4_custom.js.map",
+      "sourceMapUrl": "/app/client/lib/7037ea72f47fda395911a26362ef687a2a0b381f.map",
+      "size": 622,
+      "hash": "7037ea72f47fda395911a26362ef687a2a0b381f"
+    },
+    {
+      "path": "app/client/lib/5_app.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/app/client/lib/5_app.js?deb1215c5e3a5961f45b725c3a7c49d46710883d",
+      "sourceMap": "app/client/lib/5_app.js.map",
+      "sourceMapUrl": "/app/client/lib/deb1215c5e3a5961f45b725c3a7c49d46710883d.map",
+      "size": 20251,
+      "hash": "deb1215c5e3a5961f45b725c3a7c49d46710883d"
     },
     {
       "path": "app/client/templates/layouts/default-layout.js",
@@ -928,11 +972,11 @@
       "where": "client",
       "type": "css",
       "cacheable": true,
-      "url": "/merged-stylesheets.css?1dc2af45e00e3b6520f0237c9f70c3696e099f60",
+      "url": "/merged-stylesheets.css?d61f349095d4bf1d947f00c66dde859d2fc83fd7",
       "sourceMap": "merged-stylesheets.css.map",
-      "sourceMapUrl": "/1dc2af45e00e3b6520f0237c9f70c3696e099f60.map",
-      "size": 760779,
-      "hash": "1dc2af45e00e3b6520f0237c9f70c3696e099f60"
+      "sourceMapUrl": "/d61f349095d4bf1d947f00c66dde859d2fc83fd7.map",
+      "size": 981846,
+      "hash": "d61f349095d4bf1d947f00c66dde859d2fc83fd7"
     },
     {
       "path": "packages/twbs_bootstrap/dist/fonts/glyphicons-halflings-regular.eot",
@@ -1140,24 +1184,6 @@
       "url": "/img/user.jpg",
       "size": 17535,
       "hash": "628ad420cf37b91da438e0d1ebd0c86dc20ab459"
-    },
-    {
-      "path": "app/js/app.js",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/js/app.js",
-      "size": 9147,
-      "hash": "98f0bfce10e90160e09a87e8b4cfa0d3c1ac791b"
-    },
-    {
-      "path": "app/js/custom.js",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/js/custom.js",
-      "size": 46,
-      "hash": "1d851211bdf7a9f8ce0626bdd8adba7120175656"
     },
     {
       "path": "app/img/banners/adds.jpg",
@@ -3455,15 +3481,6 @@
       "hash": "9fd5f445cd7d7bf419c25a7c1d7e9e4e9f6b464f"
     },
     {
-      "path": "app/js/plugins/revolution-slider.js",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/js/plugins/revolution-slider.js",
-      "size": 1161,
-      "hash": "437bdec0ee0612b9706f78cd13ef080a805baa29"
-    },
-    {
       "path": "app/img/icons/flat/01.png",
       "where": "client",
       "type": "asset",
@@ -3948,15 +3965,6 @@
       "url": "/img/sliders/layer/bg2.jpg",
       "size": 18757,
       "hash": "ecdb7036cafdc1eff26d539c9114121dd50badba"
-    },
-    {
-      "path": "app/js/plugins/cube-portfolio/cube-portfolio-lightbox.js",
-      "where": "client",
-      "type": "asset",
-      "cacheable": false,
-      "url": "/js/plugins/cube-portfolio/cube-portfolio-lightbox.js",
-      "size": 4488,
-      "hash": "4382b3157d66b079ec0fe58e2caf882e9c727cf1"
     },
     {
       "path": "head.html",

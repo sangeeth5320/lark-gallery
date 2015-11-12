@@ -2007,14 +2007,15 @@
                                                                        //
 		/*	if (opt.ffnn == undefined) opt.ffnn=0;                            //
   	comingtransition=opt.ffnn;                                          //
-  		if ( direction==1)                                                 //
+  			if ( direction==1)                                                //
   		opt.ffnn=opt.ffnn-1;                                               //
   	else                                                                //
   		opt.ffnn=opt.ffnn+1;                                               //
-  		if (opt.ffnn>46) opt.ffnn=0;                                       //
+  			if (opt.ffnn>46) opt.ffnn=0;                                      //
   	if (opt.ffnn<0) opt.ffnn = 46;                                      //
-  		jQuery('.logo').html('Next Anim:'+comingtransition);               //
-  			if (comingtransition=="boxslide" || comingtransition == "boxfade" || comingtransition == "papercut" ||
+  			jQuery('.logo').html('Next Anim:'+comingtransition);              //
+                                                                       //
+  	if (comingtransition=="boxslide" || comingtransition == "boxfade" || comingtransition == "papercut" ||
   		comingtransition==0 || comingtransition == 1 || comingtransition == 16)
   		comingtransition = 9;*/                                            //
                                                                        //

@@ -1,9 +1,16 @@
 <template name="image">
     <div class="cbp-item">
+        
+        <a class="delete-image">
+            <i class="fa fa-trash fa-2x"></i>
+        </a>
+        Posted on: {{postDate}}
+
         <a href="{{url}}" class="cbp-caption cbp-singlePageInline"
            data-title="World Clock Widget<br>by Paul Flavius Nechita">
             <div class="cbp-caption-defaultWrap">
                 <img src="{{url}}" />
+
             </div>
             <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignLeft">

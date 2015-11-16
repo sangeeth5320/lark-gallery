@@ -1,0 +1,7 @@
+﻿.delete-image {
+  cursor: pointer;
+}
+
+.delete-image:hover {
+  text-decoration: none;
+}

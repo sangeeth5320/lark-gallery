@@ -13,3 +13,5 @@ Router.route('gallery');
 Router.route('register'); // Page For Registering users - Devois Team 
 
 Router.route('login'); // Page for Client - Larisa ,.
+
+Router.route('logout');

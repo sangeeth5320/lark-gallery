@@ -1,9 +1,6 @@
-// JavaScript source code
-
-
 Template.logout.events({
     
-    "click .logout": function (event) {
+    "click #logout": function (event) {
         Meteor.logout(function (err) {
             if (err) {
                 toastr.success("Problem in logging out");
@@ -13,9 +10,18 @@ Template.logout.events({
             else {
                 toastr.success("logged out");
                 console.log("logged out");
+                Router.go('/');
             }
         });
         console.log("logout");
-        return false;   
+           
     }
+});
+
+Template.logout.helpers({
+    
+    'username': function () {
+        return Session.get('username');
+    }
+
 });

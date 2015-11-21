@@ -27,9 +27,9 @@ var incrementLimit = function(templateInstance){
 Template.gallery.helpers({
     'images': function(){
         return Images.find();
+    },
+    'username': function () {
+        return Session.get('username');
     }
+
 });
-
-
-
-

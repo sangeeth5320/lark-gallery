@@ -3,13 +3,15 @@ Template.dropzone.events({
         console.log('droppped a file');
         FS.Utility.eachFile(e, function(file){
             var newFile = new FS.File(file);
+            newFile.description = "Art Description comes here ..";
 
-            Images.insert(newFile, function(err, fileObj){
+            var imgId = Images.insert(newFile, function(err, fileObj){
                 if(err){
                     toastr.error('upload failed ... please check the image uploaded or try again.');
                 }else{
                     toastr.success('upload succeeded');
                 }
+
             });
         });
     }

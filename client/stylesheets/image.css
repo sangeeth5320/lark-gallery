@@ -1,7 +1,29 @@
 ﻿.delete-image {
+  margin-top:20px;
+  margin-bottom:50px;
+  margin-right:-22px;
+  float:right;
   cursor: pointer;
 }
 
 .delete-image:hover {
   text-decoration: none;
 }
+
+.cbp-l-grid-gallery{
+    
+}
+
+.add-artname{
+    position:center;
+    float:right;
+}
+
+/* For transparency 
+.cbp-l-grid-gallery:hover{
+
+    zoom: 1;
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+
+}     */

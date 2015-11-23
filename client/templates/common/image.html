@@ -1,29 +1,31 @@
 <template name="image">
     <div class="cbp-item">
-            
- 
           <a href="{{url}}" class="cbp-caption cbp-singlePageInline"
            data-title="World Clock Widget<br>by Paul Flavius Nechita">
+              
             <div class="cbp-caption-defaultWrap">
                 <img src="{{url}}" />
 
             </div>
+              </a>
             <div class="cbp-caption-activeWrap">
                 <div class="cbp-l-caption-alignLeft">
                     <div class="cbp-l-caption-body">
                         <div class="cbp-l-caption-title">                                                    
-                        <a class="add-artname">
-                            <i class="fa fa-plus"></i>
-                        </a>
-                        {{artDescription}} 
-                             <a class="delete-image">
-                             <i class="fa fa-trash fa-2x"></i>
-                        </a>
-                        <br /> <br />
+                           
+                            {{> addInfo}} 
+                            {{artDescription}} 
+                            
+                            {{#if username}}
+                              <a class="delete-image">
+                              <i class="fa fa-trash fa-2x"></i>
+                                 
+                              </a>
+                            {{/if}}
+                           
                     </div>
                  </div>
               </div>
-            </div>
-        </a>
+            </div>        
     </div>
 </template>

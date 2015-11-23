@@ -1,0 +1,33 @@
+﻿
+<template name="addInfo">
+    <!-- Button trigger modal -->
+    <div class="add-art">
+        <a class="artname" data-toggle="modal" data-target="#myModal">
+
+            <i class="fa fa-plus"></i>
+        </a>
+        
+    </div>
+    <!-- Modal -->
+   
+     <div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Add Art Description </h4>
+                    </div>
+                    <div class="modal-body">
+                        <form class="add-image-info">
+                            <div class="form-group">
+                                <label>Art Description</label>
+                                <textarea class="form-control" id="name" name="artdescription" placeholder="Description ...."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+</template>

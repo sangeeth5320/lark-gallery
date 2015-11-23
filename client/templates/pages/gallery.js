@@ -18,6 +18,7 @@ Template.gallery.rendered = function(){
             incrementLimit(self);
         }
     });
+    
 }
 
 var incrementLimit = function(templateInstance){

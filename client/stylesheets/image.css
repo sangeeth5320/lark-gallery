@@ -13,10 +13,16 @@
 .cbp-l-grid-gallery{
     
 }
-
-.add-artname{
+.cbp-l-caption-title{
+    margin-bottom:30px;
+}
+.add-artname,.add-artname:hover{
     position:center;
     float:right;
+    cursor:pointer;
+}
+.add-artname:hover{    
+    
 }
 
 /* For transparency 

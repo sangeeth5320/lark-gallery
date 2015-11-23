@@ -11,6 +11,9 @@ Template.image.helpers({
     },
     artDescription: function () {
         return this.description;
+    },
+    'username': function () {
+        return Session.get('username');
     }
 });
 
@@ -28,16 +31,8 @@ Template.image.events({
                 }
             })
         }
-    },
-    'click .add-artname': function (e) {
-        e.preventDefault();
-        
-        var data = prompt('Enter art description', this.description);
-        console.log(data);
-        
-        Images.update({ _id: this._id }, { $set: { description: data } });
-
-
+    }   
+         
         /* Meteor.call('art',data,function (err, result) {
             if (err) {
                 console.log(err);
@@ -47,6 +42,4 @@ Template.image.events({
               console.log("Art description added successfully"); 
             }
           }); */    
-    }
-
 });

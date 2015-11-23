@@ -17,7 +17,7 @@ Meteor.methods({
         }
         return false;
     },
-   /* art: function (text) {
+   /* art: function (data) {
          
     }  */
 });

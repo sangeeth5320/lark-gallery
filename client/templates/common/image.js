@@ -9,12 +9,18 @@ Template.image.helpers({
     ownImage: function () {
         return this.userId === Meteor.userId();
     },
-    artDescription: function () {
+    'artDescription': function () {
         return this.description;
     },
     'username': function () {
         return Session.get('username');
-    }
+    },
+     'title': function () {
+         return this.title;
+     },
+     'category': function () {
+         return this.category;
+     }
 });
 
 Template.image.events({
@@ -37,6 +43,9 @@ Template.image.events({
         console.log(this._id);
         Session.set('imageId', this._id);
 
+        // Modal.find('.form-group input').val()
+        
         Modal.show('addInfo');
+        $('#myModal').modal('hide');
     }
 });

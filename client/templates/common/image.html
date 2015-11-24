@@ -12,20 +12,30 @@
                     <div class="cbp-l-caption-body">
                         <div class="cbp-l-caption-title">                                                    
                             <div class="add-art">
+                                {{#if username}}
                                 <a class="artname" >
                                    <i class="fa fa-plus" id="addImageInfo">  </i>
                                  </a>
+                                {{/if}}
                              </div>
-                            {{> addInfo}} 
-                            {{artDescription}} 
-                              <a class="delete-image">
-                              <i class="fa fa-trash fa-2x"></i>
-                              </a>
-                           
+                            <div class="row">
+                            <div class="col-md-10">
+                               {{> addInfo}} 
+                                {{title}} <br />
+                                {{category}}   <br />
+                               {{artDescription}} <br />
+                            </div>
+                                <div class="col-md-2">
+                                {{#if username}}
+                                    <a class="delete-image">
+                                      <i class="fa fa-trash fa-2x"></i>
+                                   </a>
+                                {{/if}}
+                           </div>
+                        </div>
                     </div>
                  </div>
               </div>
-            </div>        
-  
-          </div>
+            </div>       
+        </div>
 </template>

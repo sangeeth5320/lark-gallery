@@ -4,25 +4,41 @@ Template.addInfo.helpers({
     },
     'username': function () {
         return Session.get('username');
+    },
+    artDescription: function () {
+        return this.description;
+    },
+    title: function () {
+        return this.title;
+     },
+    category: function () {
+        return this.category;
     }
 });
 
 Template.addInfo.events({
     'submit .add-image-info': function (event) {
+        event.preventDefault();
         var imageId = Session.get('imageId');
 
         var a_title = event.target.title.value;
-        var a_story = event.target.story.value;
+        var a_category = event.target.category.value;
         var a_description = event.target.artdescription.value;
+        if (a_title !="" && a_category !="" && a_description !="") {
+            console.log(a_description);
+            console.log(imageId);
 
-        console.log(a_description);
-        console.log(imageId);
+            Images.update({ _id: imageId }, { $set: { title: a_title, category: a_category, description: a_description } });
 
-        Images.update({ _id: imageId }, { $set: { description: a_description , title: a_title , story:a_story }});
+            toastr.success('Art information added ... ');
 
-        toastr.success('Art information added ... ');
-        Modal.hide('addInfo');
+            Modal.hide('addInfo');
 
-        return false;
+            return false;
+        }
+        else {
+            toastr.error('Please fill all the fields before submitting');
+        }
+        
     }
 });

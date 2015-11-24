@@ -1,7 +1,6 @@
 ﻿.delete-image {
-  margin-top:20px;
-  margin-bottom:50px;
-  margin-right:-22px;
+  margin-top:10px;
+  margin-right:-10px;
   float:right;
   cursor: pointer;
 }
@@ -15,7 +14,7 @@
     height:inherit;
 }
 .cbp-l-caption-title{
-    margin-bottom:50px;
+    
 }
 .add-artname,.add-artname:hover{
     position:center;

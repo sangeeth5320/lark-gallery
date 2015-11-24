@@ -31,15 +31,24 @@ Template.image.events({
                 }
             })
         }
-    }   
-         
-        /* Meteor.call('art',data,function (err, result) {
-            if (err) {
-                console.log(err);
-            }
-            else
-            { 
-              console.log("Art description added successfully"); 
-            }
-          }); */    
+    },
+    'submit .add-image-info': function (event) {
+        event.preventDefault();
+        Session.set(imageId, this._id);
+
+        var a_title = event.target.title.value;
+        var a_story = event.target.story.value;
+        var a_description = event.target.artdescription.value;
+
+        var imageId = Session.get('imageId', this._id);
+        console.log(a_description);
+        console.log(this._id);
+
+        Images.update({ _id: this._id }, { $set: { description: a_description }, $set: { title: a_title }, $set: { story:a_story }});
+
+        toastr.success('Art information added ... ');
+        Modal.hide('addInfo');
+        return false;
+
+    }
 });

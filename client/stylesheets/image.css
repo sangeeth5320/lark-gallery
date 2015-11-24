@@ -10,11 +10,12 @@
   text-decoration: none;
 }
 
-.cbp-l-grid-gallery{
-    
+.cbp-item{
+    width:inherit;
+    height:inherit;
 }
 .cbp-l-caption-title{
-    margin-bottom:30px;
+    margin-bottom:50px;
 }
 .add-artname,.add-artname:hover{
     position:center;

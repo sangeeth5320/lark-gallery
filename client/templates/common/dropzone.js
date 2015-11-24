@@ -3,15 +3,17 @@ Template.dropzone.events({
         console.log('droppped a file');
         FS.Utility.eachFile(e, function(file){
             var newFile = new FS.File(file);
-            newFile.description = "Art Description comes here ..";
+            newFile.description = "";
+            newFile.title = "";
+            newFile.story = "";
 
-            var imgId = Images.insert(newFile, function(err, fileObj){
+            var imageId = Images.insert(newFile, function(err, fileObj){
                 if(err){
                     toastr.error('upload failed ... please check the image uploaded or try again.');
                 }else{
                     toastr.success('upload succeeded');
                 }
-
+                Session.set('imageId',this._id);
             });
         });
     }

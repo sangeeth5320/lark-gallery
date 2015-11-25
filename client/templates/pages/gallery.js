@@ -5,8 +5,15 @@ Template.gallery.created = function(){
     self.limit = new ReactiveVar();
     self.limit.set(defaultLimit);
 
-    Tracker.autorun(function() {
+    Tracker.autorun(function () {
         Meteor.subscribe('images'), self.limit.get()
+    });
+
+    Tracker.autorun(function () {
+        Meteor.subscribe('images-2'), self.limit.get()
+    });
+    Tracker.autorun(function () {
+        Meteor.subscribe('images-3'), self.limit.get()
     });
 
 }
@@ -29,8 +36,20 @@ Template.gallery.helpers({
     'images': function(){
         return Images.find();
     },
+    'images-2': function () {
+        return Images.find();
+    },
+    'images-3': function () {
+        return Images.find();
+    },
     'username': function () {
         return Session.get('username');
     }
 
 });
+
+
+Template.gallery.rendered = function () {
+    console.log(Session.get('imageId'));
+    
+}

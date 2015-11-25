@@ -5,16 +5,14 @@ Template.logout.events({
             if (err) {
                 toastr.success("Problem in logging out");
                 console.log("Problem in logging out");
-
             }
             else {
                 toastr.success("logged out");
                 console.log("logged out");
                 Router.go('/');
+                Session.clear('username');
             }
-        });
-        console.log("logout");
-           
+        });           
     }
 });
 

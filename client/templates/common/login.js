@@ -12,7 +12,7 @@ Template.login.events({
             console.log(err);
             console.log(result);
             if (result) {
-                Session.set('username', email);
+                Session.setPersistent('username', email);
                 var username = Session.get('username');
                 Router.go('/');
             }

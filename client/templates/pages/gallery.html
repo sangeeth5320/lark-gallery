@@ -4,56 +4,67 @@
         <div class="text-center">
             <h2 class="title-v2 title-center">GALLERY</h2>
         </div>
-
-        {{#if username}}
-        
+        {{#if username}}        
         {{> dropzone}}
-        
         {{/if}}
-
-        <!-- Cube Portfolio -->
-        <div class="cube-portfolio container margin-bottom-20">
-            <div class="margin-bottom-30">
-                <div class="categorize">
-                   <p> </p> <button class="btn" data-toggle="collapse" data-target="#category"> All</button> |
-                    <button class="btn" data-toggle="collapse" data-target="#category1"> 1990 - 2000 </button> |
-                    <button class="btn" data-toggle="collapse" data-target="#category2"> 2000 - 2013 </button> |
-                    <button class="btn" data-toggle="collapse" data-target="#category3"> 2014 </button> |
-                    <button class="btn" data-toggle="collapse" data-target="#category4"> 2015 </button> |
-
-                </div><!--/end Filters Container-->
-            </div> 
-            <div id="category" class="collapse in">
-                {{#each images}}
-                {{> image}}
-                {{/each}}
-            </div> 
-
-            <div id="category1" class="collapse">
-                    {{#each images1990}}
+            <!-- Cube Portfolio -->
+            <div class="cube-portfolio container margin-bottom-20">
+                <div class="margin-bottom-30">
+                    <div id="filters-container" class="cbp-l-filters-text">
+                        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> 
+                            <a data-toggle="collapse" data-target='#all'> All ( {{category}} ) </a> |
+                        </div>
+                        <div data-filter=".1990" class="cbp-filter-item"> 
+                           <a data-toggle="collapse" id="" data-target='#category1'> {{category1}}</a> |
+                           <a data-toggle="collapse" data-target='#category2'> {{category2}} |  </a> 
+                           <a data-toggle="collapse" data-target='#category3'> {{category3}} | </a> 
+                           <a data-toggle="collapse" data-target='#category4'> {{category4}} |  </a>
+                           <a data-toggle="collapse" data-target='#category5'> {{category5}} | </a> 
+                           <a data-toggle="collapse" data-target='#category6'> {{category6}} | </a> 
+                       </div>
+                    </div>  <!--/end Filters Container-->
+                </div>
+                <!-- Below Block to be optimized -->
+                <div id="all" class="collapse">
+                    {{#each images category}}
                     {{> image}}
                     {{/each}}
-            </div>            
-            
-            <div id="category2" class="cbp-l-grid-gallery">
-                {{#each images2000}}
-                {{> image}}
-                {{/each}}
+                </div>
+
+                <div id="category1" class="collapse">
+                    {{#each imagescategory category1}}
+                    {{> image}}
+                    {{/each}}
+                </div>
+                <div id="category2" class="collapse">
+                    {{#each imagescategory category2}}
+                    {{> image}}
+                    {{/each}}
+                </div>
+                <div id="category3" class="collapse">
+                    {{#each imagescategory category3}}
+                    {{> image}}
+                    {{/each}}
+                </div>
+                <div id="category4" class="collapse">
+                    {{#each imagescategory category4}}
+                    {{> image}}
+                    {{/each}}
+                </div>
+                <div id="category5" class="collapse">
+                    {{#each imagescategory category5}}
+                    {{> image}}
+                    {{/each}}
+                </div>
+                <div id="category6" class="collapse">
+                    {{#each imagescategory category6}}
+                    {{> image}}
+                    {{/each}}
+                </div>
             </div>
-            <div id="category3" class="cbp-l-grid-gallery">
-                {{#each images2014}}
-                {{> image}}
-                {{/each}}
-            </div>
-            <div id="category4" class="cbp-l-grid-gallery">
-                {{#each images2015}}
-                {{> image}}
-                {{/each}}
-            </div>
-        </div>
-    
+
             <!-- End Cube Portfolio -->
-    </div>
+        </div>
     <!-- End Portfolio -->
     
 </template>

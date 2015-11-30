@@ -42,10 +42,6 @@ Template.image.events({
         e.preventDefault();
         console.log(this._id);
         Session.set('imageId', this._id);
-
-        // Modal.find('.form-group input').val()
-        
         Modal.show('addInfo');
-        $('#myModal').modal('hide');
-    }
+     }
 });

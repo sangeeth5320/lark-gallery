@@ -7,6 +7,7 @@
         {{#if username}}        
         {{> dropzone}}
         {{/if}}
+        
             <!-- Cube Portfolio -->
             <div class="cube-portfolio container margin-bottom-20">
                 <div class="margin-bottom-30">
@@ -15,7 +16,8 @@
                             <a data-toggle="collapse" data-target='#all'> All ( {{category}} ) </a> |
                         </div>
                         <div data-filter=".1990" class="cbp-filter-item"> 
-                           <a data-toggle="collapse" id="" data-target='#category1'> {{category1}}</a> |
+{{allcategorieslinks}}
+                           <a data-toggle="collapse" id="c1" data-target='#category1'>{{category1}}</a> |
                            <a data-toggle="collapse" data-target='#category2'> {{category2}} |  </a> 
                            <a data-toggle="collapse" data-target='#category3'> {{category3}} | </a> 
                            <a data-toggle="collapse" data-target='#category4'> {{category4}} |  </a>

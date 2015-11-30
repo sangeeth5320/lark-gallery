@@ -1,3 +1,7 @@
+
+Template.addInfo.created = function () {
+    // var imageId = Session.get('imageId');
+}
 Template.addInfo.helpers({
     ownImage: function () {
         return this.userId === Meteor.userId();
@@ -5,13 +9,13 @@ Template.addInfo.helpers({
     'username': function () {
         return Session.get('username');
     },
-    artDescription: function () {
+    'artDescription': function () {
         return this.description;
     },
-    title: function () {
+    'title': function () {
         return this.title;
      },
-    category: function () {
+    'category': function () {
         return this.category;
     }
 });
@@ -20,8 +24,7 @@ Template.addInfo.events({
     'submit .add-image-info': function (event) {
         event.preventDefault();
         var imageId = Session.get('imageId');
-
-        var a_title = event.target.title.value;
+        
         var a_category = event.target.category.value;
         var a_description = event.target.artdescription.value;
         if (a_title !="" && a_category !="" && a_description !="") {

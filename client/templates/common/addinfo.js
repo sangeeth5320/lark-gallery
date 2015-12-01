@@ -23,7 +23,7 @@ Template.addInfo.helpers({
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
         return image.category;
-    }
+    } 
 });
 
 Template.addInfo.events({

@@ -11,7 +11,7 @@ Template.addInfo.helpers({
     },
     'artDescription': function () {
         var imageId = Session.get('imageId');
-        var image = Images.findOne({ _id : imageId});
+        var image = Images.findOne(imageId);
         return image.description;
     },
     'title': function () {

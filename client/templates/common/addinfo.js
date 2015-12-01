@@ -1,6 +1,6 @@
 
 Template.addInfo.created = function () {
-    // var imageId = Session.get('imageId');
+     //var imageId = Session.get('imageId');
 }
 Template.addInfo.helpers({
     ownImage: function () {
@@ -10,21 +10,29 @@ Template.addInfo.helpers({
         return Session.get('username');
     },
     'artDescription': function () {
-        return this.description;
+        var imageId = Session.get('imageId');
+        var image = Images.findOne({ _id : imageId});
+        return image.description;
     },
     'title': function () {
-        return this.title;
-     },
+        var imageId = Session.get('imageId');
+        var image = Images.findOne(imageId);
+        return image.title;
+    },
     'category': function () {
-        return this.category;
+        var imageId = Session.get('imageId');
+        var image = Images.findOne(imageId);
+        return image.category;
     }
 });
 
 Template.addInfo.events({
     'submit .add-image-info': function (event) {
+        console.log('addinfo clicked');
         event.preventDefault();
         var imageId = Session.get('imageId');
         
+        var a_title = event.target.title.value;
         var a_category = event.target.category.value;
         var a_description = event.target.artdescription.value;
         if (a_title !="" && a_category !="" && a_description !="") {

@@ -10,7 +10,7 @@ Template.gallery.created = function(){
         Meteor.subscribe('images'), self.limit.get()
     });
     // category reactive variable
-    this.currentcategory = new ReactiveVar;
+    self.currentcategory = new ReactiveVar;
 
 }
 
@@ -28,6 +28,11 @@ var incrementLimit = function(templateInstance){
 }
 
 Template.gallery.helpers({
+    'getCurrentCategory': 
+        function() {
+        return Template.instance().currentcategory.get();
+      },
+
     'filterCategory':function(categoryname){
         var allImages = Images.find().fetch();
         var categoryList = _.uniq(allImages, false, function (d) { return d.category });
@@ -41,7 +46,7 @@ Template.gallery.helpers({
         var htmlstr='';
         for(var i=0;i<allCategories.length;i++){
   // not working ...
-          htmlstr+='<a data-toggle="collapse" id="'allCategories[i]'" data-target="#category'+i+1+'" on-click=callfilter(allCategories[i]) data-catname="'+allCategories[i]+'">allCategories[i]</a> |'
+          htmlstr+='<a data-toggle="collapse" id="' + allCategories[i] + '" data-target="#category'+i+1+'" on-click=callfilter(allCategories[i]) data-catname="'+allCategories[i]+'">allCategories[i]</a> |'
         }
         return htmlstr;
     },
@@ -52,57 +57,13 @@ Template.gallery.helpers({
     var a = _.pluck(categoryList, "category");
     // var b = _.pluck(_.sortBy(categoryList, "category"));
     return a;
-},   // Below Block needs to be optimized 
-     'category1': function () {
-         var allImages = Images.find().fetch();
-         var categoryList = _.uniq(allImages, false, function (d) { return d.category });
-         var a = _.pluck(categoryList, "category");
-         console.log(a);
-         return a[0];
-     },
-     'category2': function () {
-         var allImages = Images.find().fetch();
-         var categoryList = _.uniq(allImages, false, function (d) { return d.category });
-         var a = _.pluck(categoryList, "category");
-         return a[1];
-     },
-     'category3': function () {
-         var allImages = Images.find().fetch();
-         var categoryList = _.uniq(allImages, false, function (d) { return d.category });
-         var a = _.pluck(categoryList, "category");
-         return a[2];
-     },
-     'category4': function () {
-         var allImages = Images.find().fetch();
-         var categoryList = _.uniq(allImages, false, function (d) { return d.category });
-         var a = _.pluck(categoryList, "category");
-         return a[3];
-     },
-     'category5': function () {
-         var allImages = Images.find().fetch();
-         var categoryList = _.uniq(allImages, false, function (d) { return d.category });
-         var a = _.pluck(categoryList, "category");
-         return a[4];
-     },
-     'category6': function () {
-         var allImages = Images.find().fetch();
-         var categoryList = _.uniq(allImages, false, function (d) { return d.category });
-         var a = _.pluck(categoryList, "category");
-         return a[5];
-     },
+},   
 // To return all the images
-     'images': function (category) {
-         var allImages = Images.find().fetch();
-         var categoryList = _.uniq(allImages, false, function (d) { return d.category });
-         var a = _.pluck(categoryList, "category");
-         return Images.find({ category: { $in: category } });
-     },
-// To return selected category
-     'imagescategory': function (categoryValue) {
-         var allImages = Images.find().fetch();
-         var categoryList = _.uniq(allImages, false, function (d) { return d.category });
-         var a = _.pluck(categoryList, "category");
-         return Images.find({ category: categoryValue });
+     'images': function (currentCategory) {
+         if(!currentCategory){
+            return Images.find().fetch();
+         }
+         return Images.find({ category: currentCategory });
      },
     'username': function () {
         return Session.get('username');
@@ -134,5 +95,10 @@ Template.gallery.events({
 
             console.log(Session.get("ExampleObject"));
         }
+    },
+    'click .cbp-filter-item': function(e, template){
+        var selectedCategory = $(e.target).attr('data-filter');
+        template.currentcategory.set(selectedCategory);
+        console.log(template.currentcategory.get());
     }
 });

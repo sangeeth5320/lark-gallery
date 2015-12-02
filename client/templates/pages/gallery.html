@@ -13,10 +13,10 @@
             [selected category: {{getCurrentCategory}}]
                 <div class="margin-bottom-30">
                     <div id="filters-container" class="cbp-l-filters-text">
-                        <div data-filter="*" class="cbp-filter-item-active cbp-filter-item"> 
+                        <div class="cbp-filter-item-active cbp-filter-item"> 
                             <a href="#" data-target='#all'> All </a>
                          </div>
-                        <div data-filter=".1990" class="cbp-filter-item"> 
+                        <div class="cbp-filter-item"> 
                             {{#each category}}
                                 <div data-filter="{{this}}" class="cbp-filter-item"> {{this}} | </div>
                             {{/each}}

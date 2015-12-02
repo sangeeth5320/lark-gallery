@@ -36,7 +36,6 @@ Template.gallery.helpers({
     var a = _.pluck(categoryList, "category");
     return a;
 },   
-// To return all the images
      'images': function (currentcategory) {
          if(!currentcategory){
             return Images.find().fetch();

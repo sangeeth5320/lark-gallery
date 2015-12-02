@@ -1,6 +1,7 @@
 ﻿.delete-image {
-  margin-top:10px;
-  margin-right:-10px;
+  margin-top:30px;
+  margin-right:-15px;
+  position: center;
   float:right;
   cursor: pointer;
 }
@@ -12,24 +13,14 @@
 .cbp-item{
     width:inherit;
     height:inherit;
+    min-height: 400px; min-width: 400px;
+    max-width: 400px; max-height: 400px;    
 }
-.cbp-l-caption-title{
-    
+.cbp-caption-activeWrap{
+     max-height: 200px;
 }
-.add-artname,.add-artname:hover{
+.artname,.add-art:hover{
     position:center;
     float:right;
     cursor:pointer;
 }
-.add-artname:hover{    
-    
-}
-
-/* For transparency 
-.cbp-l-grid-gallery:hover{
-
-    zoom: 1;
-	filter: alpha(opacity=90);
-	opacity: 0.9;
-
-}     */

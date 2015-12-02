@@ -38,7 +38,7 @@ Template.image.events({
             })
         }
     },
-    'click #addImageInfo': function(e) {
+    'click .artname': function(e) {
         e.preventDefault();
         console.log(this._id);
         Session.set('imageId', this._id);

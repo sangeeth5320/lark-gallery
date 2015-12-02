@@ -8,7 +8,7 @@ Template.gallery.created = function(){
     });
     // category reactive variable
     self.currentcategory = new ReactiveVar;
-
+    
 }
 
 Template.gallery.rendered = function(){

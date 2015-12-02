@@ -37,11 +37,11 @@ Template.gallery.helpers({
     return a;
 },   
 // To return all the images
-     'images': function (currentCategory) {
-         if(!currentCategory){
+     'images': function (currentcategory) {
+         if(!currentcategory){
             return Images.find().fetch();
          }
-         return Images.find({ category: currentCategory });
+         return Images.find({ category: currentcategory });
      },
     'username': function () {
         return Session.get('username');

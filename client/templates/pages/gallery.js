@@ -34,7 +34,6 @@ Template.gallery.helpers({
     var allImages = Images.find().fetch();
     var categoryList = _.uniq(allImages, false, function(d) {return d.category});
     var a = _.pluck(categoryList, "category");
-    // var b = _.pluck(_.sortBy(categoryList, "category"));
     return a;
 },   
 // To return all the images
@@ -51,7 +50,6 @@ Template.gallery.helpers({
 
 
 Template.gallery.events({
-    
     'click .cbp-filter-item': function(e, template){
         var selectedCategory = $(e.target).attr('data-filter');
         template.currentcategory.set(selectedCategory);

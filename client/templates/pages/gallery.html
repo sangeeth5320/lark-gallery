@@ -14,11 +14,11 @@
                 <div class="margin-bottom-30">
                     <div id="filters-container" class="cbp-l-filters-text">
                         <div class="cbp-filter-item-active cbp-filter-item"> 
-                            <div class="all" data-target='#all'> All </div>
+                            <div class="all" data-target='#all'> All |</div>
                          </div>
                         <div class="cbp-filter-item"> 
                             {{#each category}}
-                              {{#if this}}  <div data-filter="{{this}}" class="cbp-filter-item"> {{this}} !</div> {{/if}}
+                              {{#if this}}<div data-filter="{{this}}" class="cbp-filter-item"> {{this}}| </div> {{/if}}
                             {{/each}}
                        </div>
                     </div>  <!--/end Filters Container-->

@@ -12,17 +12,19 @@ Template.addInfo.helpers({
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
         if (image.description) { return image.description; }
+        else {return false;}
     },
     'title': function () {
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
-       // if(image.title){return image.title;}
-           return NBA.find().fetch().map(function (it) { return it.title; });
+        if(image.title){return image.title;}
+        else {return false;}
     },
     'category': function () {
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
         if(image.category){return image.category;}
+        else {return false;}
     }
 });
 
@@ -41,6 +43,7 @@ Template.addInfo.events({
             Images.update({ _id: imageId }, { $set: { title: a_title, category: a_category, description: a_description } });
             toastr.success('Art information added ... ');
             NBA.insert({title:a_title }); // Inserting title into the the collection 
+            
             Modal.hide('addInfo');
             return false;
         }

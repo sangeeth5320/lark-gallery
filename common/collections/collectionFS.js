@@ -29,11 +29,11 @@ if (Meteor.isClient) {
     })
     Meteor.subscribe("allNbas");
 
-     Template.CollectionFS.helpers({
-        listNba: function () {
-            return NBA.find();
-        }
-    }); 
+     Template.registerHelper('listNba',function(){
+        
+            return NBA.find().fetch().map(function(it){return it.title})
+      });
+     
 }
 
 Images.allow({

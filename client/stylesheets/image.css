@@ -12,12 +12,10 @@
 
 .cbp-item{
     width:inherit;
-    height:inherit;
-    min-height: 400px; min-width: 400px;
-    max-width: 400px; max-height: 400px;    
+    height:inherit;  
 }
 .cbp-caption-activeWrap{
-     max-height: 200px;
+     
 }
 .artname,.add-art:hover{
     position:center;

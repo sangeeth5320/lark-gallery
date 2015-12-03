@@ -8,3 +8,19 @@
     background: white;
     padding: 54px 54px;
 }
+
+.parallax-quote-light .parallax-quote-in {
+    background-color: #E7F76D;
+}
+
+.breadcrumbs.breadcrumbs-light {
+    background: #FFFEF5;
+}
+
+.parallax-quote {
+    background: url(/img/lark/art/waterfallweb.jpg) 50% 0 repeat fixed !important;
+}
+
+.header-fixed .header-v6.header-sticky {
+    border-bottom: 1px solid #FFBFCB!important;
+}

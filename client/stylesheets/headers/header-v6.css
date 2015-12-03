@@ -170,7 +170,7 @@
 .header-v6 .navbar-nav > li > a {
 	color: #fff;
 	font-size: 13px;
-	font-weight: 400;
+	font-weight: 600;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
@@ -574,7 +574,7 @@
 	.header-v6 .dropdown-menu li a { 
 		color: #777; 
 		font-size: 13px; 
-		font-weight: 400; 
+		font-weight: 600; 
 		padding: 6px 25px;
 	}
 
@@ -769,7 +769,7 @@
 .header-v6 .mega-menu .equal-height-list h3 {
 	color: #555;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 600;
 	padding: 0 10px 0 13px;
 	text-transform: uppercase;
 }
@@ -881,7 +881,7 @@
 		color: #555; 
 		margin: 0 0 5px;
 		font-size: 13px; 
-		font-weight: 400; 
+		font-weight: 600; 
 		padding: 6px 15px 5px; 
 	}
 
@@ -889,7 +889,7 @@
 		color: #777;
 		display: block;
 		font-size: 13px; 
-		font-weight: 400; 
+		font-weight: 600; 
 		margin-left: 15px;
 		padding: 6px 25px; 
 	}
@@ -1411,7 +1411,7 @@
 	/*Navbar*/
 	.header-fixed .header-v6.header-classic-white .navbar-nav > li > a {
 		color: #555;
-		font-weight: 400;
+		font-weight: 600;
 	}
 
 	.header-fixed .header-v6.header-classic-white .navbar-nav .active > a,

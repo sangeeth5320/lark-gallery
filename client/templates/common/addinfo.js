@@ -25,7 +25,44 @@ Template.addInfo.helpers({
         var image = Images.findOne(imageId);
         if(image.category){return image.category;}
         else {return false;}
-    }
+    },
+    settings: function() {
+     return {
+      position: "bottom",
+      rules: [
+        {
+          token: '',
+          collection: NBA,
+          field: "title",
+          // template: Template.userPill
+        },
+       ]
+      };
+    },
+    settings2: function() {
+     return {
+      position: "bottom",
+      rules: [
+        {
+          token: '',
+          collection: NBA,
+          field: "category",
+        },
+       ]
+      };
+    },
+    settings3: function() {
+     return {
+      position: "bottom",
+      rules: [
+        {
+          token: '',
+          collection: NBA,
+          field: "description",
+        },
+       ]
+      };
+    }  
 });
 
 Template.addInfo.events({
@@ -42,8 +79,10 @@ Template.addInfo.events({
             console.log(imageId);
             Images.update({ _id: imageId }, { $set: { title: a_title, category: a_category, description: a_description } });
             toastr.success('Art information added ... ');
-            NBA.insert({title:a_title }); // Inserting title into the the collection 
-            
+            // Inserting data into the the collection 
+            NBA.insert({title:a_title });
+            NBA.insert({category:a_category});
+            NBA.insert({description:a_description});
             Modal.hide('addInfo');
             return false;
         }

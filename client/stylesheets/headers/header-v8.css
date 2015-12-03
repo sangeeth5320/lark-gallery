@@ -631,7 +631,7 @@
 	.header-v8 .dropdown-menu > li > a {
 		color: #777;
 		font-size: 13px;
-		font-weight: 400;
+		font-weight: 600;
 		padding: 6px 25px;
 	}
 
@@ -804,7 +804,7 @@
 	color: #333;
 	margin: 0 0 5px;
 	font-size: 15px;
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: uppercase;
 }
 
@@ -824,7 +824,7 @@
 	display: block;
 	padding: 8px 0;
 	font-size: 13px;
-	font-weight: 400;
+	font-weight: 600;
 	border-bottom: solid 1px #eee;
 }
 

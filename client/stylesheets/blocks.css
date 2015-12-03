@@ -1942,7 +1942,7 @@
 
 /*Parallax Quote Light*/
 .parallax-quote-light:after {
-  background: rgba(255,255,255,0.9);
+  background: rgba(255,255,255,0.3);
 }
 
 .parallax-quote-light .parallax-quote-in {

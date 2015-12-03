@@ -120,7 +120,7 @@
 .header-v7 .navbar-default .navbar-nav > li > a {
     color: #555;
     font-size: 13px;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
@@ -150,7 +150,7 @@
 .header-v7 .dropdown-menu li a {
     color: #666;
     font-size: 14px;
-    font-weight: 400;
+    font-weight: 600;
     padding: 4px 10px;
 }
 

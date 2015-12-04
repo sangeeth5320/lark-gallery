@@ -10,11 +10,10 @@
         
             <!-- Cube Portfolio -->
             <div class="cube-portfolio container margin-bottom-60">
-            <h3>{{getCurrentCategory}}</h3>
                 <div class="content-xs">
                     <div id="filters-container" class="cbp-l-filters-text content-xs">
                         <div class="cbp-filter-item-active cbp-filter-item"> 
-                            <div class="all" data-target='#all'> All |</div>
+                            <div class="all" data-filter="all" data-target='#all'> All </div>
                          </div>
                         <div class="cbp-filter-item"> 
                             {{#each category}}
@@ -24,13 +23,13 @@
                     </div>  <!--/end Filters Container-->
                 </div>
                 <!-- Below Block to be optimized -->
-                <div id="all">
+                <div id="grid-container" class="cbp-l-grid-agency grid">
                     {{#each images getCurrentCategory}}
                     {{> image}}
                     {{/each}}
                 </div>
 
-                
+                {{> addInfo}} 
             </div>
 
             <!-- End Cube Portfolio -->

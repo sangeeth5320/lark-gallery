@@ -24,7 +24,7 @@ Template.image.helpers({
 });
 
 Template.image.events({
-    'click .delete-image': function (e) {
+    'click .deleteart': function (e) {
         e.preventDefault();
 
         var sure = confirm('Are you sure you want to delete this image?');
@@ -38,7 +38,7 @@ Template.image.events({
             })
         }
     },
-    'click .artname': function(e) {
+    'click .editart': function(e) {
         e.preventDefault();
         console.log(this._id);
         Session.set('imageId', this._id);

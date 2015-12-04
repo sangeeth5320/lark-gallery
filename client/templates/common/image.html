@@ -1,41 +1,49 @@
 <template name="image">
     <div class="cbp-item">
-        <a href="{{url}}"  data-lightbox="{{category}}" class="cbp-caption cbp-singlePageInline"
-           data-title="World Clock Widget<br>by Paul Flavius Nechita">
+    <a href="{{url}}"  data-lightbox="{{category}}" class="cbp-caption cbp-singlePageInline"
+       data-title="World Clock Widget<br>by Paul Flavius Nechita">
 
-            <div class="cbp-caption-defaultWrap">
-                <img src="{{url}}" class="img-thumbnail" />
-            </div>
-        </a>            
-            <div class="cbp-caption-activeWrap">
-                <div class="cbp-l-caption-alignLeft">
-                    <div class="cbp-l-caption-body">
-                        <div class="cbp-l-caption-title">                                                    
-                            <div class="add-art">
-                                {{#if username}}
-                                <a class="artname" >
-                                   <i class="fa fa-plus" id="addImageInfo">  </i>
-                                 </a>
-                                {{/if}}
-                             </div>
-                            <div class="row">
-                            <div class="col-md-10">
-                               {{> addInfo}} 
-                                {{title}} <br />
-                                {{category}}   <br />
-                               {{artDescription}} <br />
-                            </div>
-                                <div class="col-md-2">
-                                {{#if username}}
-                                    <a class="delete-image">
-                                      <i class="fa fa-trash fa-2x"></i>
-                                   </a>
-                                {{/if}}
-                           </div>
-                        </div>
-                    </div>
-                 </div>
-              </div>
-            </div>       
+        <div class="cbp-caption-defaultWrap">
+            <img src="{{url}}" class="img-thumbnail" />
         </div>
+    </a>      
+
+        <div class="cbp-caption-activeWrap">
+            <div class="cbp-l-caption-alignLeft">
+              <div class="cbp-l-caption-body">
+                                                 
+                  <div class="row">
+
+                    <div class="col-md-10">
+                      <div class="cbp-l-caption-title"> 
+                        {{title}}
+                      </div>
+                      <div class="cbp-l-caption-desc"> 
+                        {{artDescription}}
+                      </div>
+                    </div>
+                    <div class="col-md-1">
+                        {{#if username}}
+                        <a class="editart" >
+                           <i class="fa fa-edit" id="addImageInfo">  </i>
+                         </a>
+                        {{/if}}
+                   </div>
+                   <div class="col-md-1">
+                        {{#if username}}
+                         <a class="deleteart">
+                            <i class="fa fa-remove"></i>
+                         </a>
+                        {{/if}}
+                   </div>
+                  </div>
+                </div>
+
+          </div>
+        </div>       
+    </div>
+
+
+
+
 </template>

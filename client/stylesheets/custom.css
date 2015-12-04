@@ -24,3 +24,34 @@
 .header-fixed .header-v6.header-sticky {
     border-bottom: 1px solid #FFBFCB!important;
 }
+
+.headline1 {
+    display: block;
+    margin: 10px 0 25px 0;
+}
+
+.headline1 h2, .headline1 h3, .headline1 h4 {
+    border-bottom: 2px solid #a10f2b;
+}
+
+.footer{
+	background-color: #B5AFA2;
+	color:#ffffff;
+}
+
+.cbp-caption-activeWrap {
+    background-color: #EEEEEE;
+}
+
+.cbp-l-caption-title{
+    color: #a10f2b;
+    font-weight: 700;
+}
+
+.cbp-l-caption-desc{
+    color: #a10f2b;
+}
+
+.cbp-l-filters-text .cbp-filter-item{
+    font-weight: 700;
+}

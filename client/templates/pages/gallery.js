@@ -18,6 +18,9 @@ Template.gallery.rendered = function(){
             incrementLimit(self);
         }
     });
+
+
+
 }
 
 var incrementLimit = function(templateInstance){
@@ -29,19 +32,18 @@ Template.gallery.helpers({
         function() {
         return Template.instance().currentcategory.get();
       },
-
-'category': function(){
-    var allImages = Images.find().fetch();
-    var categoryList = _.uniq(allImages, false, function(d) {return d.category});
-    var a = _.pluck(categoryList, "category");
-    return a;
-},   
-     'images': function (currentcategory) {
-          if(!currentcategory){
-            return Images.find().fetch();
-         } 
-         return Images.find({category:currentcategory});
-     },
+    'category': function(){
+        var allImages = Images.find().fetch();
+        var categoryList = _.uniq(allImages, false, function(d) {return d.category});
+        var a = _.pluck(categoryList, "category");
+        return a;
+    },   
+    'images': function (currentcategory) {
+      if(currentcategory == 'all' || !currentcategory){
+        return Images.find().fetch();
+     } 
+     return Images.find({category:currentcategory});
+    },
     'username': function () {
         return Session.get('username');
     }

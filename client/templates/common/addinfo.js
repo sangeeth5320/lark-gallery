@@ -11,6 +11,7 @@ Template.addInfo.helpers({
     'artDescription': function () {
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
+        console.log(image);
         if (image.description) { return image.description; }
         else {return false;}
     },
@@ -74,7 +75,7 @@ Template.addInfo.events({
         var a_title = event.target.title.value;
         var a_category = event.target.category.value;
         var a_description = event.target.artdescription.value;
-        if (a_title !="" && a_category !="" && a_description !="") {
+        if (a_title !="" && a_description !="") {
             console.log(a_description);
             console.log(imageId);
             Images.update({ _id: imageId }, { $set: { title: a_title, category: a_category, description: a_description } });

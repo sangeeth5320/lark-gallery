@@ -55,3 +55,8 @@
 .cbp-l-filters-text .cbp-filter-item{
     font-weight: 700;
 }
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}

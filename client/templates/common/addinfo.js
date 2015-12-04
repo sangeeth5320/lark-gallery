@@ -12,57 +12,17 @@ Template.addInfo.helpers({
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
         console.log(image);
-        if (image.description) { return image.description; }
-        else {return false;}
+        return image.description;
     },
     'title': function () {
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
-        if(image.title){return image.title;}
-        else {return false;}
+        return image.title;
     },
     'category': function () {
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
-        if(image.category){return image.category;}
-        else {return false;}
-    },
-    settings: function() {
-     return {
-      position: "bottom",
-      rules: [
-        {
-          token: '',
-          collection: NBA,
-          field: "title",
-          // template: Template.userPill
-        },
-       ]
-      };
-    },
-    settings2: function() {
-     return {
-      position: "bottom",
-      rules: [
-        {
-          token: '',
-          collection: NBA,
-          field: "category",
-        },
-       ]
-      };
-    },
-    settings3: function() {
-     return {
-      position: "bottom",
-      rules: [
-        {
-          token: '',
-          collection: NBA,
-          field: "description",
-        },
-       ]
-      };
+        return image.category;
     }  
 });
 

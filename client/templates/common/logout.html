@@ -1,14 +1,15 @@
 ﻿<template name="logout">
  
-    {{#if username}}
     <li>
-
+    	{{#if username}}
         <a href="#" id="logout">
             logout
         </a>
-
+        {{else}}
+        <a href="{{pathFor route='login'}}" id="login">
+            login
+        </a>
+	    {{/if}}
     </li>
-
-    {{/if}}
 
 </template>

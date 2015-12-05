@@ -4,7 +4,7 @@
 
 .dropzone {
     min-height: 150px;
-    border: 2px solid rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.2);
     background: white;
     padding: 54px 54px;
 }
@@ -14,15 +14,19 @@
 }
 
 .breadcrumbs.breadcrumbs-light {
-    background: #FFFEF5;
+    background: #fff;
 }
 
 .parallax-quote {
     background: url(/img/lark/art/waterfallweb.jpg) 50% 0 repeat fixed !important;
 }
 
-.header-fixed .header-v6.header-sticky {
+/*.header-fixed .header-v6.header-sticky {
     border-bottom: 1px solid #FFBFCB!important;
+}*/
+
+.header-v6.header-classic-white .navbar {
+    background: rgba(231,231,222,0.3);
 }
 
 .headline1 {
@@ -54,6 +58,10 @@
 
 .cbp-l-filters-text .cbp-filter-item{
     font-weight: 700;
+}
+
+.cbp-item {
+    vertical-align: top;
 }
 
 p {

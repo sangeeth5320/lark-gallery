@@ -1,49 +1,26 @@
 <template name="image">
-    <div class="cbp-item">
-    <a href="{{url}}"  data-lightbox="{{category}}" class="cbp-caption cbp-singlePageInline"
-       data-title="World Clock Widget<br>by Paul Flavius Nechita">
-
+<div class="cbp-item">
+    <div class="cbp-caption margin-bottom-60">
         <div class="cbp-caption-defaultWrap">
-            <img src="{{url}}" class="img-thumbnail" />
+            <img src="{{url}}" alt="">
         </div>
-    </a>      
-
+        {{#if username}}
         <div class="cbp-caption-activeWrap">
-            <div class="cbp-l-caption-alignLeft">
-              <div class="cbp-l-caption-body">
-                                                 
-                  <div class="row">
-
-                    <div class="col-md-10">
-                      <div class="cbp-l-caption-title"> 
-                        {{title}}
-                      </div>
-                      <div class="cbp-l-caption-desc"> 
-                        {{artDescription}}
-                      </div>
-                    </div>
-                    <div class="col-md-1">
-                        {{#if username}}
-                        <a class="editart" >
-                           <i class="fa fa-edit" id="addImageInfo">  </i>
-                         </a>
-                        {{/if}}
-                   </div>
-                   <div class="col-md-1">
-                        {{#if username}}
-                         <a class="deleteart">
-                            <i class="fa fa-remove"></i>
-                         </a>
-                        {{/if}}
-                   </div>
-                  </div>
+            <div class="cbp-l-caption-alignCenter">
+                <div class="cbp-l-caption-body">
+                    <ul class="link-captions no-bottom-space">
+                        <li><a class="editart"><i class="rounded-x fa fa-edit"></i></a></li>
+                        <li><a class="deleteart cbp-lightbox" data-title="Design Object"><i class="rounded-x fa fa-remove"></i></a></li>
+                    </ul>
                 </div>
-
-          </div>
-        </div>       
+            </div>
+        </div>
+        {{/if}}
+        <div class="cbp-title-dark">
+            <div class="cbp-l-grid-agency-title">{{title}}</div>
+            <div class="cbp-l-grid-agency-desc">{{artDescription}}</div>
+        </div>
     </div>
-
-
-
-
+    
+</div>
 </template>

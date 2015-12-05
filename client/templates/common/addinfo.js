@@ -1,6 +1,11 @@
 Template.addInfo.created = function () {
     //var imageId = Session.get('imageId');
 }
+
+Template.addInfo.rendered = function(){
+    Meteor.typeahead.inject();
+}
+
 Template.addInfo.helpers({
     ownImage: function () {
         return this.userId === Meteor.userId();
@@ -23,7 +28,14 @@ Template.addInfo.helpers({
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
         return image.category;
-    }  
+    },
+    'categoryList': function(){
+        console.log('inside cateogry list');
+        var allImages = Images.find().fetch();
+        var categoryList = _.uniq(allImages, false, function(d) {return d.category});
+        var a = _.pluck(categoryList, "category");
+        return a;
+    }
 });
 
 Template.addInfo.events({
@@ -40,10 +52,6 @@ Template.addInfo.events({
             console.log(imageId);
             Images.update({ _id: imageId }, { $set: { title: a_title, category: a_category, description: a_description } });
             toastr.success('Art information added ... ');
-            // Inserting data into the the collection 
-            NBA.insert({title:a_title });
-            NBA.insert({category:a_category});
-            NBA.insert({description:a_description});
             Modal.hide('addInfo');
             return false;
         }

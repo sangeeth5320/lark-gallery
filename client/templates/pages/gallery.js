@@ -19,6 +19,7 @@ Template.gallery.rendered = function(){
         }
     });
 
+    Meteor.typeahead.inject();
 
 
 }

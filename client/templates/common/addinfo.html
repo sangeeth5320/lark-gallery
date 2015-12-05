@@ -15,8 +15,8 @@
                                    <input type="text" name="title" class="form-control" placeholder="title ..." value="{{title}}">
                             </div>
                             <div class="form-group">
-                                <label>Category</label>
-                                 <input type="text" name="category" class="form-control" placeholder="category ..." value="{{category}}">
+                                <label>Category</label> <br/>
+                                 <input type="text" name="category" class="form-control typeahead" placeholder="category ..." value="{{category}}" data-source="categoryList" autocomplete="off" spellcheck="off" data-min-length="0">
                             </div>     
                             <div class="form-group">
                                 <label>Art Description</label>

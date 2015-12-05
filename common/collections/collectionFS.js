@@ -1,4 +1,3 @@
-NBA = new Meteor.Collection("listNba");
 if(Meteor.isServer){
     var imageStore = new FS.Store.GridFS("images");
     Images = new FS.Collection("images", {
@@ -9,9 +8,6 @@ if(Meteor.isServer){
             }
         }
     })
-    Meteor.publish("allNbas", function () {
-        return NBA.find();
-    });
 }
 
 if (Meteor.isClient) {
@@ -27,13 +23,6 @@ if (Meteor.isClient) {
             }
         }
     })
-    Meteor.subscribe("allNbas");
-
-     Template.registerHelper('listNba',function(){
-        
-            return NBA.find().fetch().map(function(it){return it.title})
-      });
-     
 }
 
 Images.allow({

@@ -8,7 +8,7 @@ Template.gallery.created = function(){
     });
     // category reactive variable
     self.currentcategory = new ReactiveVar;
-    
+    Session.set('currentcategory','all');
 }
 
 Template.gallery.rendered = function(){

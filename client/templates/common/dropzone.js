@@ -6,7 +6,7 @@ Template.dropzone.events({
             newFile.description = "";
             newFile.title = "";
             newFile.story = "";
-            newFile.rank =1;
+
             var imageId = Images.insert(newFile, function(err, fileObj){
                 if(err){
                     toastr.error('upload failed ... please check the image uploaded or try again.');

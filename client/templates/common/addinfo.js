@@ -17,17 +17,17 @@ Template.addInfo.helpers({
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
         console.log(image);
-        return image.description;
+        return image&&image.description;
     },
     'title': function () {
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
-        return image.title;
+        return image&&image.title;
     },
     'category': function () {
         var imageId = Session.get('imageId');
         var image = Images.findOne(imageId);
-        return image.category;
+        return image&&image.category;
     },
     'categoryList': function(){
         console.log('inside cateogry list');

@@ -20,7 +20,10 @@ Template.image.helpers({
      },
      'category': function () {
          return this.category;
-     }
+     },
+    'getCurrentCategory': function() {
+        return Session.get('currentcategory');
+    }
 });
 
 Template.image.events({

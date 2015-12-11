@@ -1,9 +1,15 @@
 <template name="image">
 <div class="cbp-item">
+  <a href="{{url}}" class="cbp-caption cbp-singlePageInline"
+       data-title="{{title}}" 
+       data-lightbox={{getCurrentCategory}}>
+
     <div class="cbp-caption margin-bottom-60">
         <div class="cbp-caption-defaultWrap">
             <img src="{{url}}" alt="" class="img-thumbnail">
         </div>
+    </div>
+  </a>
         {{#if username}}
         <div class="cbp-caption-activeWrap">
             <div class="cbp-l-caption-alignCenter">
@@ -20,7 +26,5 @@
             <div class="cbp-l-grid-agency-title">{{title}}</div>
             <div class="cbp-l-grid-agency-desc">{{artDescription}}</div>
         </div>
-    </div>
-    
 </div>
 </template>

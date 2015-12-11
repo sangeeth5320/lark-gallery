@@ -47,8 +47,7 @@ var incrementLimit = function(templateInstance){
 }
 
 Template.gallery.helpers({
-    'getCurrentCategory': 
-        function() {
+    'getCurrentCategory': function() {
         return Template.instance().currentcategory.get();
       },
     'category': function(){
@@ -73,6 +72,7 @@ Template.gallery.events({
     'click .cbp-filter-item': function(e, template){
         var selectedCategory = $(e.target).attr('data-filter');
         template.currentcategory.set(selectedCategory);
+        Session.set('currentcategory',selectedCategory);
         console.log(template.currentcategory.get());
     }
 });

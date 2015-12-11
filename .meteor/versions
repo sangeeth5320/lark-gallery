@@ -89,6 +89,7 @@ mongo-id@1.0.1
 mongo-livedata@1.0.9
 mrt:jquery-imagesloaded@0.0.2
 mrt:jquery-masonry@0.1.0
+mrt:jquery-ui@1.9.2
 msavin:mongol@1.6.1
 natestrauser:font-awesome@4.4.0
 npm-bcrypt@0.7.8_2

@@ -6,7 +6,6 @@ Template.dropzone.events({
             newFile.description = "";
             newFile.title = "";
             newFile.story = "";
-            newFile.category =Session.get('currentcategory');
             newFile.rank =1;
             var imageId = Images.insert(newFile, function(err, fileObj){
                 if(err){
@@ -19,3 +18,4 @@ Template.dropzone.events({
         });
     }
 });
+

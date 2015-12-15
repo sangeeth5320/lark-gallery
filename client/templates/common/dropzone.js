@@ -7,6 +7,10 @@ Template.dropzone.events({
             newFile.title = "";
             newFile.story = "";
             newFile.rank =1;
+            if(Session.get('currentcategory')!='all')
+             {
+                newFile.category=Session.get('currentcategory');
+             }
             var imageId = Images.insert(newFile, function(err, fileObj){
                 if(err){
                     toastr.error('upload failed ... please check the image uploaded or try again.');

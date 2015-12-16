@@ -26,7 +26,7 @@
 }*/
 
 .header-v6.header-classic-white .navbar {
-    background: rgba(253, 227, 167, 0.78);
+    background: rgba(253, 227, 167, 0.5);
 }
 
 .headline1 {
@@ -58,6 +58,7 @@
 
 .cbp-l-filters-text .cbp-filter-item{
     font-weight: 700;
+    font: 400 15px/21px Lato, sans-serif;
 }
 
 .cbp-item {
@@ -65,7 +66,7 @@
 }
 
 .img-thumbnail{
-    height: 300px;
+    height: 250px;
 }
 
 .cube-portfolio .cbp-l-grid-agency-title {

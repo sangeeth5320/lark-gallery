@@ -66,7 +66,7 @@
 }
 
 .img-thumbnail{
-    height: 250px;
+    height: 300px;
 }
 
 .cube-portfolio .cbp-l-grid-agency-title {
@@ -80,7 +80,7 @@
 }
 
 .shrink-logo{
-    height:200px !important;
+    height:180px !important;
     margin-top: -30px;
     max-height: 300px !important;
 }

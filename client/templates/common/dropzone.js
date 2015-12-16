@@ -6,7 +6,13 @@ Template.dropzone.events({
             newFile.description = "";
             newFile.title = "";
             newFile.story = "";
-            newFile.rank =1;
+            if(Images.find().count()==0)  
+            {
+                Session.set('rank',0); // set rank to 0 if no images
+            }
+            newFile.rank =Session.get('rank')+1;
+            Session.setPersistent('rank',newFile.rank);
+            
             if(Session.get('currentcategory')!='all')
              {
                 newFile.category=Session.get('currentcategory');
@@ -16,8 +22,8 @@ Template.dropzone.events({
                     toastr.error('upload failed ... please check the image uploaded or try again.');
                 }else{
                     toastr.success('upload succeeded');
-                }
-                Session.set('imageId',this._id);
+                     }
+                     Session.set('imageId',this._id);
             });
         });
     }

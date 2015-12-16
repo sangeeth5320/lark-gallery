@@ -58,9 +58,9 @@ Template.gallery.helpers({
     },   
     'images': function (currentcategory) {
       if(currentcategory == 'all' || !currentcategory){
-        return Images.find({},{sort: {rank: 1}});
+        return Images.find({},{sort: {category: -1}},{sort: {rank: -1}});
      } 
-     return Images.find({category:currentcategory},{sort:{rank: 1}});
+     return Images.find({category:currentcategory},{sort:{rank: -1}});
     },
     'username': function () {
         return Session.get('username');

@@ -20,7 +20,7 @@
 }
 
 #grid-container{
-    border: 1px dashed #444;
+    /* border: 1px dashed #444; */
     text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
@@ -28,9 +28,6 @@
   }
 
 #cbp-item {
-  width:50px
-  height:50px;
-  
    vertical-align: top;
    display: inline-block;
    *display: inline;

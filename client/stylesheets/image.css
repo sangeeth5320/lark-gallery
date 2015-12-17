@@ -10,10 +10,6 @@
   text-decoration: none;
 }
 
-.cbp-item{
-    width:inherit;
-    height:inherit;  
-}
 .cbp-caption-activeWrap{
      
 }
@@ -21,4 +17,29 @@
     position:center;
     float:right;
     cursor:pointer;
+}
+
+#grid-container{
+    border: 1px dashed #444;
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    min-width: 612px;
+  }
+
+#cbp-item {
+  width:50px
+  height:50px;
+  
+   vertical-align: top;
+   display: inline-block;
+   *display: inline;
+   zoom: 1;
+}
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
 }

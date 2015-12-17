@@ -9,7 +9,8 @@ Template.gallery.created = function(){
     // category reactive variable
     self.currentcategory = new ReactiveVar;
     Session.set('currentcategory','all');
-}
+    self.currentcategory.set('all');
+  }
 
 Template.gallery.rendered = function(){
     var self = this;
@@ -57,10 +58,12 @@ Template.gallery.helpers({
         return a;
     },   
     'images': function (currentcategory) {
-      if(currentcategory == 'all' || !currentcategory){
-        return Images.find({},{sort: {rank: -1}});
+      if(currentcategory == 'all'){
+        console.log("inside all category");
+        return Images.find({},{sort: {rank: 1}});
      } 
-     return Images.find({category:currentcategory},{sort:{rank: -1}});
+     console.log("inside selectedCategory");
+     return Images.find({category:currentcategory},{sort:{rank: 1}});
     },
     'username': function () {
         return Session.get('username');

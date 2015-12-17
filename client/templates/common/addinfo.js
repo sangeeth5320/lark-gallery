@@ -56,7 +56,7 @@ Template.addInfo.events({
             return false;
         }
         else {
-            toastr.error('Please fill all the fields before submitting');
+            toastr.error('Please fill the necessary fields before submitting');
         }
         
     }

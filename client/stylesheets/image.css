@@ -32,7 +32,11 @@
    display: inline-block;
    *display: inline;
    zoom: 1;
-}
+   overflow: auto;
+}
+li: last-child{
+    float: right;
+}
 
 .stretch {
     width: 100%;

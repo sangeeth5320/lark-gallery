@@ -25,7 +25,8 @@
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
     min-width: 612px; */
-    text-align: center;
+    text-align:left;
+    margin-left:12%;
   }
 
 #cbp-item {
@@ -44,4 +45,19 @@
 
 #image{
   width:20%;
+}
+
+#image:last-child{
+
+text-align: left;
+}
+
+#image:nth-last-of-type(3){
+ float: left;
+}
+#image:nth-last-of-type(2){
+ float: left;
+}
+#image:nth-last-of-type(1){
+ float: left;
 }

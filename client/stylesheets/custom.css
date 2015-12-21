@@ -88,9 +88,11 @@
     max-height: 300px !important;
 }
 
-.owl-carousel .item{
-    width: 100%;
+.owl-carousel span{
+    font-size: 15px;
 }
+
+owl-carousel
 
 p {
     text-align: justify;

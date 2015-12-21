@@ -45,13 +45,8 @@
 
 #image{
   width:20%;
-}
-
-#image:last-child{
-
-text-align: left;
-}
-
+} 
+/*
 #image:nth-last-of-type(3){
  float: left;
 }
@@ -60,4 +55,8 @@ text-align: left;
 }
 #image:nth-last-of-type(1){
  float: left;
+} */
+
+.cbp-title-dark{
+ margin-bottom: 20px;
 }

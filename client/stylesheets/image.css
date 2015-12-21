@@ -20,11 +20,12 @@
 }
 
 #grid-container{
-    /* border: 1px dashed #444; */
-    text-align: justify;
+    /* border: 1px dashed #444; 
+    text-align: justify; 
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
-    min-width: 612px;
+    min-width: 612px; */
+    text-align: center;
   }
 
 #cbp-item {
@@ -39,4 +40,8 @@
     display: inline-block;
     font-size: 0;
     line-height: 0
+}
+
+#image{
+  width:20%;
 }

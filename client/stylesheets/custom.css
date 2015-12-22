@@ -63,23 +63,29 @@
 
 .cbp-item {
     vertical-align: top;
+    width: 250px;
 }
 
 .img-thumbnail{
     object-fit: none;
     object-position: center;
     height: 500px;
-    width: 250px;
+}
+
+.cube-portfolio{
+    text-align: center;
 }
 
 .cube-portfolio .cbp-l-grid-agency-title {
     font-size: 13px;
     font-weight: 600;
+    white-space: normal;
 }
 
 .cube-portfolio .cbp-l-grid-agency-desc {
     font-size: 11px;
     text-transform:none;
+    white-space: normal;    
 }
 
 .shrink-logo{
@@ -91,8 +97,6 @@
 .owl-carousel span{
     font-size: 15px;
 }
-
-owl-carousel
 
 p {
     text-align: justify;

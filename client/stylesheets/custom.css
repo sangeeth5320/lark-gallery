@@ -83,7 +83,7 @@
 }
 
 .cube-portfolio{
-    text-align: center !important;
+    text-align: center;
    
 }
 .cube-portfolio .cbp-l-grid-agency-title {
@@ -95,6 +95,10 @@
 .cube-portfolio .cbp-l-grid-agency-desc {
     white-space: normal;
     font-size: 11px;
+}
+
+.cbp-title-dark{
+    max-width: inherit!important;
 }
 
 .shrink-logo{

@@ -47,8 +47,19 @@
     background-color: #EEEEEE;
 }
 
+.cbp-caption{
+    max-width: inherit !important;
+    display: block;
+}
+
 .img-thumbnail{
-    height:500px;
+    height:200px;
+    max-width: initial !important;
+    display: block;
+}
+
+.cbp-caption-defaultWrap{
+  max-width: inherit !important;
 }
 
 .cbp-l-caption-title{
@@ -58,6 +69,7 @@
 
 .cbp-l-caption-desc{
     color: #a10f2b;
+    width: available;
 }
 
 .cbp-l-filters-text .cbp-filter-item{
@@ -67,24 +79,22 @@
 
 .cbp-item {
     vertical-align: top;
-    width: 250px;
     position: center;
 }
 
 .cube-portfolio{
-    text-align: center;
+    text-align: center !important;
+   
 }
-
 .cube-portfolio .cbp-l-grid-agency-title {
+    white-space: normal;
     font-size: 13px;
     font-weight: 600;
-    white-space: normal;
 }
 
 .cube-portfolio .cbp-l-grid-agency-desc {
+    white-space: normal;
     font-size: 11px;
-    text-transform:none;
-    white-space: normal;    
 }
 
 .shrink-logo{

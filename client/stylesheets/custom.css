@@ -47,6 +47,10 @@
     background-color: #EEEEEE;
 }
 
+.img-thumbnail{
+    height:500px;
+}
+
 .cbp-l-caption-title{
     color: #a10f2b;
     font-weight: 700;
@@ -64,6 +68,7 @@
 .cbp-item {
     vertical-align: top;
     width: 250px;
+    position: center;
 }
 
 .cube-portfolio{

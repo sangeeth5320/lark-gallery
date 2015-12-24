@@ -6,6 +6,8 @@ Template.home.rendered = function(){
         autoHeight: false,
         autoHeightClass: 'owl-height',
         dots:false,
-        nav:true
+        nav:true,
+        slideSpeed : 200000000000000,
+        paginationSpeed :80000000000
 	});
 }

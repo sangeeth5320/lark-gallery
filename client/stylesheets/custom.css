@@ -53,6 +53,10 @@
 .cbp-caption{
 
 }
+.increasefont{
+    font-weight: 700!important;
+    font-size: 15px!important;
+}
 
 .img-thumbnail{
     height:400px;
@@ -83,25 +87,24 @@
     vertical-align: top;
     position: center;
     max-width: 100%; 
-    
+
 }
 
 .cbp-title-dark{
     max-width: inherit !important;
-    overflow-x:scroll;
-
 }
 .cube-portfolio .cbp-l-grid-agency-title {
     white-space: normal;
     font-size: 13px;
     font-weight: 600;
-    max-width: inherit !important;
+    max-width: 300px;
+    position: right;
 }
 
 .cube-portfolio .cbp-l-grid-agency-desc {
     white-space: normal;
     font-size: 11px;
-    max-width: inherit !important;
+    max-width: 300px;
 }
 
 

@@ -82,8 +82,7 @@
 .cbp-item {
     vertical-align: top;
     position: center;
-    width: 300px;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .cbp-title-dark{

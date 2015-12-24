@@ -117,6 +117,10 @@
     font-size: 15px;
 }
 
+.portfolio-box-v1 li:hover:after{
+    background: none;
+}
+
 p {
     text-align: justify;
     text-justify: inter-word;

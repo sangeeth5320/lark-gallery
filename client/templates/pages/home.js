@@ -7,7 +7,7 @@ Template.home.rendered = function(){
         autoHeightClass: 'owl-height',
         dots:false,
         nav:true,
-        slideSpeed : 400,
-        paginationSpeed :400
+        autoplaySpeed: 3000,
+        autoplayTimeout: 15000
 	});
 }

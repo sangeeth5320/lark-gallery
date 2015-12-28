@@ -8,7 +8,7 @@ Template.dropzone.events({
             newFile.story = "";
             if(Images.find().count()==0)  
             {
-                Session.set('rank',10000); // set rank to 0 if no images
+                Session.set('rank',10000); // set rank to 10000 if no images
             }
             newFile.rank =Session.get('rank')-1;
             Session.setPersistent('rank',newFile.rank);

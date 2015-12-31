@@ -46,6 +46,7 @@ Template.addInfo.events({
         
         var a_title = event.target.title.value;
         var a_category = event.target.category.value;
+        a_category=$.trim(a_category);
         var a_description = event.target.artdescription.value;
         if (a_title !="") {
             console.log(a_description);

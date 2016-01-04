@@ -1,10 +1,11 @@
-var defaultLimit = 10;
+ var defaultLimit = 5;
 Template.gallery.created = function(){
+   
     var self = this;
     self.limit = new ReactiveVar();
     self.limit.set(defaultLimit);
     Tracker.autorun(function () {
-        Meteor.subscribe('images'), self.limit.get()
+        Meteor.subscribe('images', self.limit.get());
     });
     // category reactive variable
     self.currentcategory = new ReactiveVar;
@@ -45,6 +46,7 @@ Template.gallery.rendered = function(){
 
 var incrementLimit = function(templateInstance){
     var newLimit = templateInstance.limit.get() + defaultLimit;
+    templateInstance.limit.set(newLimit);
 }
 
 Template.gallery.helpers({

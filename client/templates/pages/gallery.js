@@ -60,7 +60,7 @@ Template.gallery.helpers({
         return a;
     },   
     'images': function (currentcategory) {
-      if(currentcategory == 'all'){
+      if(currentcategory == 'all'|| !currentcategory){
         console.log("inside all category");
         return Images.find({},{sort: {rank: 1}});
      } 

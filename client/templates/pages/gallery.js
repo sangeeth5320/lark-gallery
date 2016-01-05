@@ -11,16 +11,18 @@ Template.gallery.created = function(){
     self.currentcategory = new ReactiveVar;
     Session.set('currentcategory','all');
     self.currentcategory.set('all');
-  }
 
-Template.gallery.rendered = function(){
-    var self = this;
-    console.log(self);
+
     $(window).scroll(function(){
         if($(window).scrollTop() + $(window).height() > $(document).height() - 100){
             incrementLimit(self);
         }
     });
+  }
+
+Template.gallery.rendered = function(){
+    
+    var self = this;
     
     Meteor.typeahead.inject();
     //// Image reordering /////

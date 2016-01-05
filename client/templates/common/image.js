@@ -48,3 +48,7 @@ Template.image.events({
         Modal.show('addInfo');
      }
 });
+
+Template.image.rendered=function(){
+     $(".loader").fadeOut("slow");
+ };

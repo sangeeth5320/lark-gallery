@@ -1,4 +1,4 @@
- var defaultLimit = 10;
+ var defaultLimit = 1;
 Template.gallery.created = function(){
    
     var self = this;
@@ -15,12 +15,13 @@ Template.gallery.created = function(){
 
 Template.gallery.rendered = function(){
     var self = this;
+    console.log(self);
     $(window).scroll(function(){
         if($(window).scrollTop() + $(window).height() > $(document).height() - 100){
             incrementLimit(self);
         }
     });
-
+    
     Meteor.typeahead.inject();
     //// Image reordering /////
     if(Session.get('username'))

@@ -1,4 +1,4 @@
- var defaultLimit = 5;
+ var defaultLimit = 10;
 Template.gallery.created = function(){
    
     var self = this;

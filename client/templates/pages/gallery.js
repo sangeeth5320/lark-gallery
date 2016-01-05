@@ -1,4 +1,4 @@
- var defaultLimit = 1;
+ var defaultLimit = 2;
 Template.gallery.created = function(){
    
     var self = this;
@@ -11,18 +11,16 @@ Template.gallery.created = function(){
     self.currentcategory = new ReactiveVar;
     Session.set('currentcategory','all');
     self.currentcategory.set('all');
-
-
-    $(window).scroll(function(){
-        if($(window).scrollTop() + $(window).height() > $(document).height() - 100){
-            incrementLimit(self);
-        }
-    });
   }
 
 Template.gallery.rendered = function(){
-    
     var self = this;
+    console.log(self);
+    $(window).scroll(function(){
+        if($(window).scrollTop() + $(window).height() > $(document).height() - 30){
+            incrementLimit(self);
+        }
+    });
     
     Meteor.typeahead.inject();
     //// Image reordering /////

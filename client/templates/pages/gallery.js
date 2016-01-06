@@ -15,11 +15,15 @@ Template.gallery.created = function(){
 
 Template.gallery.rendered = function(){
     var self = this;
-    console.log(self);
+    console.log(self.limit.curValue);
     $(window).scroll(function(){
+      if(document.readyState === "complete")
+      {
         if($(window).scrollTop() + $(window).height() > $(document).height() - 30){
             incrementLimit(self);
+            console.log(self.limit.curValue);
         }
+      }
     });
     
     Meteor.typeahead.inject();

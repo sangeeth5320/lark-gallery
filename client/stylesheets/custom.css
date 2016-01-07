@@ -135,3 +135,11 @@ p {
     z-index: 9999;
     background: url('/img/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
 }
+
+h2:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -150px; 
+  height: 150px; 
+  visibility: hidden; 
+}

@@ -3,7 +3,8 @@ Template.addInfo.created = function () {
 }
 
 Template.addInfo.rendered = function(){
-    Meteor.typeahead.inject();
+   $( "#name" ).focus();
+   Meteor.typeahead.inject();
 }
 
 Template.addInfo.helpers({

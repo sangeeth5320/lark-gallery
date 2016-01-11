@@ -50,5 +50,8 @@ Template.image.events({
 });
 
 Template.image.rendered=function(){
-     $(".loader").fadeOut("slow");
+     if(document.readyState === "complete")
+     {
+       $(".loader").fadeOut("slow");
+     }
  };

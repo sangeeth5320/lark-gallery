@@ -48,7 +48,6 @@ Template.image.events({
         Modal.show('addInfo');
      }
 });
-
 Template.image.rendered=function(){
      if(document.readyState === "complete")
      {

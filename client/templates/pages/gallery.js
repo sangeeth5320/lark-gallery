@@ -11,6 +11,7 @@ Template.gallery.created = function(){
     self.currentcategory = new ReactiveVar;
     Session.set('currentcategory','all');
     self.currentcategory.set('all');
+    $(".loader").fadeOut("slow");
   }
 
 Template.gallery.rendered = function(){

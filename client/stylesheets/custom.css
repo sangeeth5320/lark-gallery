@@ -86,7 +86,6 @@
     vertical-align: top;
     position: center;
     max-width: 100%; 
-
 }
 
 .cbp-title-dark{
@@ -144,4 +143,8 @@ h2:before {
   margin-top: -150px; 
   height: 150px; 
   visibility: hidden; 
+}
+
+.selected{
+    color: red;
 }

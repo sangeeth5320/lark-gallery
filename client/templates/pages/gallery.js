@@ -70,7 +70,6 @@ Template.gallery.helpers({
         console.log("inside all category");
         return Images.find({},{sort: {rank: 1}});
      } 
-     console.log("inside selectedCategory");
      return Images.find({category:currentcategory},{sort:{rank: 1}});
     },
     'username': function () {
@@ -80,10 +79,19 @@ Template.gallery.helpers({
 
 
 Template.gallery.events({
-    'click .cbp-filter-item': function(e, template){
+    'click .cbp-filter-item-others': function(e, template){
         var selectedCategory = $(e.target).attr('data-filter');
         template.currentcategory.set(selectedCategory);
         Session.set('currentcategory',selectedCategory);
         console.log(template.currentcategory.get());
-    }
+               
+           $('.cbp-filter-item').removeClass("cbp-filter-item-active");
+           $(e.target).addClass("cbp-filter-item-active");
+           $('#al').removeClass("selected");
+        console.log($(e.target).attr('id'));       
+     },
+     'click .cbp-filter-item-all':function(e, template){
+        $('.cbp-filter-item').removeClass("cbp-filter-item-active");
+        $(e.target).addClass("selected");
+     }
 });

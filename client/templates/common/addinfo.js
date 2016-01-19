@@ -31,7 +31,6 @@ Template.addInfo.helpers({
         return image&&image.category;
     },
     'categoryList': function(){
-        console.log('inside cateogry list');
         var allImages = Images.find().fetch();
         var categoryList = _.uniq(allImages, false, function(d) {return d.category});
         var a = _.pluck(categoryList, "category");

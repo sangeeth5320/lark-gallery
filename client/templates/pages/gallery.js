@@ -22,7 +22,7 @@ Template.gallery.rendered = function(){
       {
         if($(window).scrollTop() + $(window).height() > $(document).height() - 200){
             incrementLimit(self);
-            console.log(self.limit.curValue);
+           // console.log(self.limit.curValue);
         }
       }
     });
@@ -48,6 +48,12 @@ Template.gallery.rendered = function(){
         }
        })
      }
+
+     Meteor.call('category', function (err, result){ 
+            console.log("In client : ");
+            console.log(result);
+            Session.set('q', result);
+         })
 }
 
 var incrementLimit = function(templateInstance){
@@ -60,14 +66,11 @@ Template.gallery.helpers({
         return Template.instance().currentcategory.get();
       },
     'category': function(){
-        var allImages = Images.find().fetch();
-        var categoryList = _.uniq(allImages, false, function(d) {return d.category});
-        var a = _.pluck(categoryList, "category");
-        return a;
+        console.log(Session.get('q'));
+        return Session.get('q');
     },   
     'images': function (currentcategory) {
       if(currentcategory == 'all'|| !currentcategory){
-        console.log("inside all category");
         return Images.find({},{sort: {rank: 1}});
      } 
      return Images.find({category:currentcategory},{sort:{rank: 1}});
@@ -79,19 +82,20 @@ Template.gallery.helpers({
 
 
 Template.gallery.events({
-    'click .cbp-filter-item-others': function(e, template){
-        var selectedCategory = $(e.target).attr('data-filter');
-        template.currentcategory.set(selectedCategory);
-        Session.set('currentcategory',selectedCategory);
-        console.log(template.currentcategory.get());
-               
+      'click .cbp-filter-item-others': function(e, template){
+
            $('.cbp-filter-item').removeClass("cbp-filter-item-active");
            $(e.target).addClass("cbp-filter-item-active");
-           $('#al').removeClass("selected");
-        console.log($(e.target).attr('id'));       
+           $('#al').removeClass("selected");       
      },
-     'click .cbp-filter-item-all':function(e, template){
-        $('.cbp-filter-item').removeClass("cbp-filter-item-active");
-        $(e.target).addClass("selected");
+      'click .cbp-filter-item-all':function(e, template){
+           $('.cbp-filter-item').removeClass("cbp-filter-item-active");
+           $(e.target).addClass("selected");
+     },
+      'click .cbp-filter-item': function(e, template){
+           var selectedCategory = $(e.target).attr('data-filter');
+           template.currentcategory.set(selectedCategory);
+           Session.set('currentcategory',selectedCategory);
+           console.log(template.currentcategory.get());
      }
 });

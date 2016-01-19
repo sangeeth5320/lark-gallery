@@ -17,8 +17,13 @@ Meteor.methods({
         }
         return false;
     },
-   /* art: function (data) {
-         
-    }  */
+    category: function(){
+        var allImages = Images.find().fetch();
+        var categoryList = _.uniq(allImages, false, function(d) {return d.category});
+        var a = _.pluck(categoryList, "category");
+        console.log("In server : ");
+        console.log(a);
+        return a;
+       }
 });
 

@@ -18,7 +18,7 @@ Template.gallery.rendered = function(){
     var self = this;
     console.log(self.limit.curValue);
     $(window).scroll(function(){
-     // if(document.readyState === "complete")
+      if(document.readyState === "complete")
       {
         if($(window).scrollTop() + $(window).height() > $(document).height() - 500){
             incrementLimit(self);

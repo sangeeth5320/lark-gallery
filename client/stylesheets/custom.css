@@ -39,12 +39,13 @@
 }
 
 .footer{
+    position: bottom;
 	background-color: #ECDAAF;
 	color:#ffffff;
 }
 .cube-portfolio{
     text-align: center;
-}
+ }
 .cbp-caption-activeWrap {
     background-color: #EEEEEE;
     max-width: 100%;

@@ -54,11 +54,15 @@ Template.addInfo.events({
             Images.update({ _id: imageId }, { $set: { title: a_title, category: a_category, description: a_description } });
             toastr.success('Art information added ... ');
             Modal.hide('addInfo');
+
+            Meteor.call('category', function (err, result){ 
+            Session.set('q', result);
+            }) 
             return false;
         }
         else {
             toastr.error('Please fill the necessary fields before submitting');
         }
-        
+       
     }
 });

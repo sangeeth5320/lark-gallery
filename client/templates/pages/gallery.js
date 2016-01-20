@@ -18,15 +18,15 @@ Template.gallery.rendered = function(){
     var self = this;
     console.log(self.limit.curValue);
     $(window).scroll(function(){
-      if(document.readyState === "complete")
+     // if(document.readyState === "complete")
       {
-        if($(window).scrollTop() + $(window).height() > $(document).height() - 200){
+        if($(window).scrollTop() + $(window).height() > $(document).height() - 500){
             incrementLimit(self);
            // console.log(self.limit.curValue);
         }
       }
     });
-    
+
     Meteor.typeahead.inject();
     //// Image reordering /////
     if(Session.get('username'))
@@ -50,8 +50,6 @@ Template.gallery.rendered = function(){
      }
 
      Meteor.call('category', function (err, result){ 
-            console.log("In client : ");
-            console.log(result);
             Session.set('q', result);
          })
 }
@@ -86,7 +84,14 @@ Template.gallery.events({
 
            $('.cbp-filter-item').removeClass("cbp-filter-item-active");
            $(e.target).addClass("cbp-filter-item-active");
-           $('#al').removeClass("selected");       
+           $('#al').removeClass("selected"); 
+           $(window).scrollTop(0);
+           $("html,body").animate({
+                    scrollTop: 250
+                });     
+           $("html,body").animate({
+                    scrollBottom: 10
+                });     
      },
       'click .cbp-filter-item-all':function(e, template){
            $('.cbp-filter-item').removeClass("cbp-filter-item-active");

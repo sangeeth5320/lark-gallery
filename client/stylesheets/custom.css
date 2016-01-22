@@ -149,3 +149,11 @@ h2:before {
 .selected{
     color: red;
 }
+
+.bio-links{
+    color: #6C3306;
+}
+
+a.bio-links:visited{
+    color: #6C3306;
+}

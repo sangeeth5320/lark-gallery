@@ -150,10 +150,11 @@ h2:before {
     color: red;
 }
 
+
 .bio-links{
-    color: #6C3306;
+    color: #6C3306 !important;
 }
 
-a.bio-links:visited{
-    color: #6C3306;
+.bio-links:hover{
+    color: #6C3306 !important;
 }

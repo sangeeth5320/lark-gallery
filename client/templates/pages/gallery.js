@@ -1,23 +1,30 @@
-var defaultLimit = 10;
+ var defaultLimit = 2;
 Template.gallery.created = function(){
+   
     var self = this;
     self.limit = new ReactiveVar();
     self.limit.set(defaultLimit);
     Tracker.autorun(function () {
-        Meteor.subscribe('images'), self.limit.get()
+        Meteor.subscribe('images', self.limit.get());
     });
     // category reactive variable
     self.currentcategory = new ReactiveVar;
     Session.set('currentcategory','all');
     self.currentcategory.set('all');
+    $(".loader").fadeOut("slow");
   }
 
 Template.gallery.rendered = function(){
     var self = this;
+    console.log(self.limit.curValue);
     $(window).scroll(function(){
-        if($(window).scrollTop() + $(window).height() > $(document).height() - 100){
+      if(document.readyState === "complete")
+      {
+        if($(window).scrollTop() + $(window).height() > $(document).height() - 500){
             incrementLimit(self);
+           // console.log(self.limit.curValue);
         }
+      }
     });
 
     Meteor.typeahead.inject();
@@ -41,10 +48,15 @@ Template.gallery.rendered = function(){
         }
        })
      }
+
+     Meteor.call('category', function (err, result){ 
+            Session.set('q', result);
+         })
 }
 
 var incrementLimit = function(templateInstance){
     var newLimit = templateInstance.limit.get() + defaultLimit;
+    templateInstance.limit.set(newLimit);
 }
 
 Template.gallery.helpers({
@@ -52,17 +64,13 @@ Template.gallery.helpers({
         return Template.instance().currentcategory.get();
       },
     'category': function(){
-        var allImages = Images.find().fetch();
-        var categoryList = _.uniq(allImages, false, function(d) {return d.category});
-        var a = _.pluck(categoryList, "category");
-        return a;
+        console.log(Session.get('q'));
+        return Session.get('q');
     },   
     'images': function (currentcategory) {
-      if(currentcategory == 'all'){
-        console.log("inside all category");
+      if(currentcategory == 'all'|| !currentcategory){
         return Images.find({},{sort: {rank: 1}});
      } 
-     console.log("inside selectedCategory");
      return Images.find({category:currentcategory},{sort:{rank: 1}});
     },
     'username': function () {
@@ -72,10 +80,27 @@ Template.gallery.helpers({
 
 
 Template.gallery.events({
-    'click .cbp-filter-item': function(e, template){
-        var selectedCategory = $(e.target).attr('data-filter');
-        template.currentcategory.set(selectedCategory);
-        Session.set('currentcategory',selectedCategory);
-        console.log(template.currentcategory.get());
-    }
+      'click .cbp-filter-item-others': function(e, template){
+
+           $('.cbp-filter-item').removeClass("cbp-filter-item-active");
+           $(e.target).addClass("cbp-filter-item-active");
+           $('#al').removeClass("selected"); 
+           $(window).scrollTop(0);
+           $("html,body").animate({
+                    scrollTop: 250
+                });     
+           $("html,body").animate({
+                    scrollBottom: 10
+                });     
+     },
+      'click .cbp-filter-item-all':function(e, template){
+           $('.cbp-filter-item').removeClass("cbp-filter-item-active");
+           $(e.target).addClass("selected");
+     },
+      'click .cbp-filter-item': function(e, template){
+           var selectedCategory = $(e.target).attr('data-filter');
+           template.currentcategory.set(selectedCategory);
+           Session.set('currentcategory',selectedCategory);
+           console.log(template.currentcategory.get());
+     }
 });

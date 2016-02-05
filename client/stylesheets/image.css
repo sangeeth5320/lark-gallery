@@ -20,23 +20,17 @@
 }
 
 #grid-container{
-    /* border: 1px dashed #444; */
-    text-align: justify;
-    -ms-text-justify: distribute-all-lines;
-    text-justify: distribute-all-lines;
-    min-width: 612px;
+    text-align:center;
+    display: block;
   }
-
-#cbp-item {
-   vertical-align: top;
-   display: inline-block;
-   *display: inline;
-   zoom: 1;
-}
 
 .stretch {
     width: 100%;
     display: inline-block;
     font-size: 0;
     line-height: 0
+}
+
+.cbp-title-dark{
+ margin-bottom: 20px;
 }

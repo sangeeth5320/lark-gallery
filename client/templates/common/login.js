@@ -49,22 +49,6 @@ Template.login.rendered = function () {
     return false;
 }   
 
-// methods 
 if (Meteor.isClient) {
-
-    /*  Account Creation 
-
-       Accounts.createUser({        
-        email: "sa",
-        password: "12345",
-    }, function (err) {
-        if (err) {
-            console.log(err);
-        }
-        else {
-            console.log("Admin Account created");
-        }
-    });
-         */
    
 }

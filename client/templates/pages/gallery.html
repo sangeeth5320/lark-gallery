@@ -11,15 +11,13 @@
             <!-- Cube Portfolio -->
             <div class="cube-portfolio container margin-bottom-60">
                 <div class="content-xs">
-                    <div id="filters-container" class="cbp-l-filters-text content-xs">
-                        <div class="cbp-filter-item-active cbp-filter-item"> 
-                            <div class="all" data-filter="all" data-target='#all'> All </div>
-                         </div>
-                        <div class="cbp-filter-item"> 
-                            {{#each category}}
-                              {{#if this}}  | <div data-filter="{{this}}" class="cbp-filter-item"> {{this}} </div> {{/if}}
-                            {{/each}}
-                       </div>
+                   <div id="filters-container" class="cbp-l-filters-text content-xs">
+                    <div class="cbp-filter-item cbp-filter-item-active cbp-filter-item-all"> 
+                        <div id="al" data-filter="all" data-target='#all'> All </div>
+                     </div>
+                         {{#each category}}
+                           {{#if this}}  | <div class="cbp-filter-item cbp-filter-item-others" id="{{this}}" data-filter="{{this}}" > {{this}} </div> {{/if}}
+                         {{/each}}
                     </div>  <!--/end Filters Container-->
                 </div>
                 <!-- Below Block to be optimized -->
@@ -33,7 +31,7 @@
             </div>
                
             <!-- End Cube Portfolio -->
-        </div>
+    </div>
     <!-- End Portfolio -->
     
 </template>

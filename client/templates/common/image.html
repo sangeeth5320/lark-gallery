@@ -3,14 +3,16 @@
   
     <div class="cbp-caption">
         <div class="cbp-caption-defaultWrap">
+
             <a href="{{url}}" class="cbp-caption cbp-singlePageInline"
                data-title="{{title}}" data-lightbox={{getCurrentCategory}}>
                 <img src="{{url}}" alt="" class="img-thumbnail">
+                
             </a>
-
+         
+         </div>
         </div>
-    </div>
-  
+      
         {{#if username}}
         <div class="cbp-caption-activeWrap">
             <div class="cbp-l-caption-alignCenter">
@@ -24,8 +26,15 @@
         </div>
         {{/if}}
         <div class="cbp-title-dark">
-            <div class="cbp-l-grid-agency-title">{{title}}</div>
-            <div class="cbp-l-grid-agency-desc">{{artDescription}}</div>
+          <div class="row">
+            
+             <div class="col-md-12" align="center">
+                 <div class="cbp-l-grid-agency-title">{{title}}</div>
+                 <div class="cbp-l-grid-agency-desc">{{artDescription}}</div>
+             </div>
+          </div>
         </div>
-</div>
+    <div class="loader"> </div>
+    </div>
+
 </template>

@@ -39,21 +39,43 @@
 }
 
 .footer{
+    position: bottom;
 	background-color: #ECDAAF;
 	color:#ffffff;
 }
-
+.cube-portfolio{
+    text-align: center;
+ }
 .cbp-caption-activeWrap {
     background-color: #EEEEEE;
+    max-width: 100%;
+}
+
+.cbp-caption{
+
+}
+.increasefont{
+    font-size: 15px!important;
+}
+
+.img-thumbnail{
+    height:400px;
+}
+
+.cbp-caption-defaultWrap{
+  max-width: inherit !important;
 }
 
 .cbp-l-caption-title{
     color: #a10f2b;
     font-weight: 700;
+    word-break: break-all;
+    word-wrap:break-word;
 }
 
 .cbp-l-caption-desc{
     color: #a10f2b;
+    
 }
 
 .cbp-l-filters-text .cbp-filter-item{
@@ -63,21 +85,27 @@
 
 .cbp-item {
     vertical-align: top;
+    position: center;
+    max-width: 100%; 
 }
 
-.img-thumbnail{
-    height: 300px;
+.cbp-title-dark{
+    max-width: inherit !important;
 }
-
 .cube-portfolio .cbp-l-grid-agency-title {
+    white-space: normal;
     font-size: 13px;
     font-weight: 600;
+    max-width: 300px;
+    position: right;
 }
 
 .cube-portfolio .cbp-l-grid-agency-desc {
+    white-space: normal;
     font-size: 11px;
-    text-transform:none;
+    max-width: 300px;
 }
+
 
 .shrink-logo{
     height:180px !important;
@@ -85,7 +113,48 @@
     max-height: 300px !important;
 }
 
+.owl-carousel span{
+    font-size: 15px;
+}
+
+.portfolio-box-v1 li:hover:after{
+    background: none;
+}
+
 p {
     text-align: justify;
     text-justify: inter-word;
+}
+
+.loader {
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    top: 80%;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+    background: url('/img/loading-icon/facebook.gif') 50% 50% no-repeat;
+    opacity: 0.8;
+}
+
+h2:before { 
+  display: block; 
+  content: " "; 
+  margin-top: -150px; 
+  height: 150px; 
+  visibility: hidden; 
+}
+
+.selected{
+    color: red;
+}
+
+
+.bio-links{
+    color: #6C3306 !important;
+}
+
+.bio-links:hover{
+    color: #6C3306 !important;
 }
